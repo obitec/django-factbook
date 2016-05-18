@@ -1,0 +1,6841 @@
+[
+{
+  "model": "fact_book.continent",
+  "pk": 1,
+  "fields": {
+    "name": "Asia"
+  }
+},
+{
+  "model": "fact_book.continent",
+  "pk": 2,
+  "fields": {
+    "name": "Europe"
+  }
+},
+{
+  "model": "fact_book.continent",
+  "pk": 3,
+  "fields": {
+    "name": "Africa"
+  }
+},
+{
+  "model": "fact_book.continent",
+  "pk": 4,
+  "fields": {
+    "name": "Oceania"
+  }
+},
+{
+  "model": "fact_book.continent",
+  "pk": 5,
+  "fields": {
+    "name": "Americas"
+  }
+},
+{
+  "model": "fact_book.continent",
+  "pk": 6,
+  "fields": {
+    "name": ""
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 1,
+  "fields": {
+    "name": "Southern Asia"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 2,
+  "fields": {
+    "name": "Northern Europe"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 3,
+  "fields": {
+    "name": "Southern Europe"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 4,
+  "fields": {
+    "name": "Northern Africa"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 5,
+  "fields": {
+    "name": "Polynesia"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 6,
+  "fields": {
+    "name": "Middle Africa"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 7,
+  "fields": {
+    "name": "Caribbean"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 8,
+  "fields": {
+    "name": "South America"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 9,
+  "fields": {
+    "name": "Western Asia"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 10,
+  "fields": {
+    "name": "Australia and New Zealand"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 11,
+  "fields": {
+    "name": "Western Europe"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 12,
+  "fields": {
+    "name": "Eastern Europe"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 13,
+  "fields": {
+    "name": "Central America"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 14,
+  "fields": {
+    "name": "Western Africa"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 15,
+  "fields": {
+    "name": "Northern America"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 16,
+  "fields": {
+    "name": "Southern Africa"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 17,
+  "fields": {
+    "name": ""
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 18,
+  "fields": {
+    "name": "Eastern Africa"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 19,
+  "fields": {
+    "name": "South-Eastern Asia"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 20,
+  "fields": {
+    "name": "Eastern Asia"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 21,
+  "fields": {
+    "name": "Melanesia"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 22,
+  "fields": {
+    "name": "Micronesia"
+  }
+},
+{
+  "model": "fact_book.region",
+  "pk": 23,
+  "fields": {
+    "name": "Central Asia"
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 1,
+  "fields": {
+    "name": "Afghanistan",
+    "alpha2code": "AF",
+    "alpha3code": "AFG",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Southern Asia"
+    ],
+    "capital": null,
+    "demonym": "Afghan",
+    "native_name": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646",
+    "population": 26023100,
+    "display_name": "Afghanistan",
+    "position": 29
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 2,
+  "fields": {
+    "name": "\u00c5land Islands",
+    "alpha2code": "AX",
+    "alpha3code": "ALA",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "\u00c5landish",
+    "native_name": "\u00c5land",
+    "population": 28875,
+    "display_name": "\u00c5land Islands",
+    "position": 30
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 3,
+  "fields": {
+    "name": "Albania",
+    "alpha2code": "AL",
+    "alpha3code": "ALB",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Albanian",
+    "native_name": "Shqip\u00ebria",
+    "population": 2893005,
+    "display_name": "Albania",
+    "position": 31
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 4,
+  "fields": {
+    "name": "Algeria",
+    "alpha2code": "DZ",
+    "alpha3code": "DZA",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Northern Africa"
+    ],
+    "capital": null,
+    "demonym": "Algerian",
+    "native_name": "\u0627\u0644\u062c\u0632\u0627\u0626\u0631",
+    "population": 39500000,
+    "display_name": "Algeria",
+    "position": 32
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 5,
+  "fields": {
+    "name": "American Samoa",
+    "alpha2code": "AS",
+    "alpha3code": "ASM",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "American Samoan",
+    "native_name": "American Samoa",
+    "population": 55519,
+    "display_name": "American Samoa",
+    "position": 33
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 6,
+  "fields": {
+    "name": "Andorra",
+    "alpha2code": "AD",
+    "alpha3code": "AND",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Andorran",
+    "native_name": "Andorra",
+    "population": 76949,
+    "display_name": "Andorra",
+    "position": 34
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 7,
+  "fields": {
+    "name": "Angola",
+    "alpha2code": "AO",
+    "alpha3code": "AGO",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "Angolan",
+    "native_name": "Angola",
+    "population": 24383301,
+    "display_name": "Angola",
+    "position": 35
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 8,
+  "fields": {
+    "name": "Anguilla",
+    "alpha2code": "AI",
+    "alpha3code": "AIA",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Anguillian",
+    "native_name": "Anguilla",
+    "population": 13452,
+    "display_name": "Anguilla",
+    "position": 36
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 9,
+  "fields": {
+    "name": "Antigua and Barbuda",
+    "alpha2code": "AG",
+    "alpha3code": "ATG",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Antiguan, Barbudan",
+    "native_name": "Antigua and Barbuda",
+    "population": 86295,
+    "display_name": "Antigua and Barbuda",
+    "position": 38
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 10,
+  "fields": {
+    "name": "Argentina",
+    "alpha2code": "AR",
+    "alpha3code": "ARG",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Argentinean",
+    "native_name": "Argentina",
+    "population": 43131966,
+    "display_name": "Argentina",
+    "position": 39
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 11,
+  "fields": {
+    "name": "Armenia",
+    "alpha2code": "AM",
+    "alpha3code": "ARM",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Armenian",
+    "native_name": "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576",
+    "population": 3006800,
+    "display_name": "Armenia",
+    "position": 40
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 12,
+  "fields": {
+    "name": "Aruba",
+    "alpha2code": "AW",
+    "alpha3code": "ABW",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Aruban",
+    "native_name": "Aruba",
+    "population": 107394,
+    "display_name": "Aruba",
+    "position": 41
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 13,
+  "fields": {
+    "name": "Australia",
+    "alpha2code": "AU",
+    "alpha3code": "AUS",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Australia and New Zealand"
+    ],
+    "capital": null,
+    "demonym": "Australian",
+    "native_name": "Australia",
+    "population": 23868800,
+    "display_name": "Australia",
+    "position": 42
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 14,
+  "fields": {
+    "name": "Austria",
+    "alpha2code": "AT",
+    "alpha3code": "AUT",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Western Europe"
+    ],
+    "capital": null,
+    "demonym": "Austrian",
+    "native_name": "\u00d6sterreich",
+    "population": 8602112,
+    "display_name": "Austria",
+    "position": 1
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 15,
+  "fields": {
+    "name": "Azerbaijan",
+    "alpha2code": "AZ",
+    "alpha3code": "AZE",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Azerbaijani",
+    "native_name": "Az\u0259rbaycan",
+    "population": 9636300,
+    "display_name": "Azerbaijan",
+    "position": 43
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 16,
+  "fields": {
+    "name": "The Bahamas",
+    "alpha2code": "BS",
+    "alpha3code": "BHS",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Bahamian",
+    "native_name": "Bahamas",
+    "population": 368390,
+    "display_name": "Bahamas",
+    "position": 44
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 17,
+  "fields": {
+    "name": "Bahrain",
+    "alpha2code": "BH",
+    "alpha3code": "BHR",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Bahraini",
+    "native_name": "\u200f\u0627\u0644\u0628\u062d\u0631\u064a\u0646",
+    "population": 1359800,
+    "display_name": "Bahrain",
+    "position": 45
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 18,
+  "fields": {
+    "name": "Bangladesh",
+    "alpha2code": "BD",
+    "alpha3code": "BGD",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Southern Asia"
+    ],
+    "capital": null,
+    "demonym": "Bangladeshi",
+    "native_name": "Bangladesh",
+    "population": 158875000,
+    "display_name": "Bangladesh",
+    "position": 46
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 19,
+  "fields": {
+    "name": "Barbados",
+    "alpha2code": "BB",
+    "alpha3code": "BRB",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Barbadian",
+    "native_name": "Barbados",
+    "population": 285000,
+    "display_name": "Barbados",
+    "position": 47
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 20,
+  "fields": {
+    "name": "Belarus",
+    "alpha2code": "BY",
+    "alpha3code": "BLR",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Belarusian",
+    "native_name": "\u0411\u0435\u043b\u0430\u0440\u0443\u0301\u0441\u044c",
+    "population": 9485300,
+    "display_name": "Belarus",
+    "position": 48
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 21,
+  "fields": {
+    "name": "Belgium",
+    "alpha2code": "BE",
+    "alpha3code": "BEL",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Western Europe"
+    ],
+    "capital": null,
+    "demonym": "Belgian",
+    "native_name": "Belgi\u00eb",
+    "population": 11248330,
+    "display_name": "Belgium",
+    "position": 2
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 22,
+  "fields": {
+    "name": "Belize",
+    "alpha2code": "BZ",
+    "alpha3code": "BLZ",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Central America"
+    ],
+    "capital": null,
+    "demonym": "Belizean",
+    "native_name": "Belize",
+    "population": 368310,
+    "display_name": "Belize",
+    "position": 49
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 23,
+  "fields": {
+    "name": "Benin",
+    "alpha2code": "BJ",
+    "alpha3code": "BEN",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Beninese",
+    "native_name": "B\u00e9nin",
+    "population": 10315244,
+    "display_name": "Benin",
+    "position": 50
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 24,
+  "fields": {
+    "name": "Bermuda",
+    "alpha2code": "BM",
+    "alpha3code": "BMU",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Northern America"
+    ],
+    "capital": null,
+    "demonym": "Bermudian",
+    "native_name": "Bermuda",
+    "population": 64237,
+    "display_name": "Bermuda",
+    "position": 51
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 25,
+  "fields": {
+    "name": "Bhutan",
+    "alpha2code": "BT",
+    "alpha3code": "BTN",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Southern Asia"
+    ],
+    "capital": null,
+    "demonym": "Bhutanese",
+    "native_name": "\u02bcbrug-yul",
+    "population": 763920,
+    "display_name": "Bhutan",
+    "position": 52
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 26,
+  "fields": {
+    "name": "Bolivia",
+    "alpha2code": "BO",
+    "alpha3code": "BOL",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Bolivian",
+    "native_name": "Bolivia",
+    "population": 11410651,
+    "display_name": "Bolivia",
+    "position": 53
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 27,
+  "fields": {
+    "name": "Bonaire",
+    "alpha2code": "BQ",
+    "alpha3code": "BES",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Dutch",
+    "native_name": "Bonaire",
+    "population": 17408,
+    "display_name": "Bonaire, Sint Eustatius and Saba",
+    "position": 54
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 28,
+  "fields": {
+    "name": "Bosnia and Herzegovina",
+    "alpha2code": "BA",
+    "alpha3code": "BIH",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Bosnian, Herzegovinian",
+    "native_name": "Bosna i Hercegovina",
+    "population": 3791622,
+    "display_name": "Bosnia and Herzegovina",
+    "position": 55
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 29,
+  "fields": {
+    "name": "Botswana",
+    "alpha2code": "BW",
+    "alpha3code": "BWA",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Southern Africa"
+    ],
+    "capital": null,
+    "demonym": "Motswana",
+    "native_name": "Botswana",
+    "population": 2070984,
+    "display_name": "Botswana",
+    "position": 56
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 30,
+  "fields": {
+    "name": "Bouvet Island",
+    "alpha2code": "BV",
+    "alpha3code": "BVT",
+    "continent": [
+      ""
+    ],
+    "region": [
+      ""
+    ],
+    "capital": null,
+    "demonym": "",
+    "native_name": "Bouvet\u00f8ya",
+    "population": 0,
+    "display_name": "Bouvet Island",
+    "position": 57
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 31,
+  "fields": {
+    "name": "Brazil",
+    "alpha2code": "BR",
+    "alpha3code": "BRA",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Brazilian",
+    "native_name": "Brasil",
+    "population": 204772000,
+    "display_name": "Brazil",
+    "position": 58
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 32,
+  "fields": {
+    "name": "British Indian Ocean Territory",
+    "alpha2code": "IO",
+    "alpha3code": "IOT",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Indian",
+    "native_name": "British Indian Ocean Territory",
+    "population": 3000,
+    "display_name": "British Indian Ocean Territory",
+    "position": 59
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 33,
+  "fields": {
+    "name": "United States Minor Outlying Islands",
+    "alpha2code": "UM",
+    "alpha3code": "UMI",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Northern America"
+    ],
+    "capital": null,
+    "demonym": "American",
+    "native_name": "United States Minor Outlying Islands",
+    "population": 300,
+    "display_name": "United States Minor Outlying Islands",
+    "position": 237
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 34,
+  "fields": {
+    "name": "British Virgin Islands",
+    "alpha2code": "VG",
+    "alpha3code": "VGB",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Virgin Islander",
+    "native_name": "British Virgin Islands",
+    "population": 28054,
+    "display_name": "Virgin Islands, British",
+    "position": 243
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 35,
+  "fields": {
+    "name": "Brunei",
+    "alpha2code": "BN",
+    "alpha3code": "BRN",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Bruneian",
+    "native_name": "Negara Brunei Darussalam",
+    "population": 393372,
+    "display_name": "Brunei Darussalam",
+    "position": 60
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 36,
+  "fields": {
+    "name": "Bulgaria",
+    "alpha2code": "BG",
+    "alpha3code": "BGR",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Bulgarian",
+    "native_name": "\u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f",
+    "population": 7202198,
+    "display_name": "Bulgaria",
+    "position": 3
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 37,
+  "fields": {
+    "name": "Burkina Faso",
+    "alpha2code": "BF",
+    "alpha3code": "BFA",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Burkinabe",
+    "native_name": "Burkina Faso",
+    "population": 18450494,
+    "display_name": "Burkina Faso",
+    "position": 61
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 38,
+  "fields": {
+    "name": "Burundi",
+    "alpha2code": "BI",
+    "alpha3code": "BDI",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Burundian",
+    "native_name": "Burundi",
+    "population": 9823827,
+    "display_name": "Burundi",
+    "position": 62
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 39,
+  "fields": {
+    "name": "Cambodia",
+    "alpha2code": "KH",
+    "alpha3code": "KHM",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Cambodian",
+    "native_name": "K\u00e2mp\u016dch\u00e9a",
+    "population": 15405157,
+    "display_name": "Cambodia",
+    "position": 64
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 40,
+  "fields": {
+    "name": "Cameroon",
+    "alpha2code": "CM",
+    "alpha3code": "CMR",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "Cameroonian",
+    "native_name": "Cameroon",
+    "population": 23344000,
+    "display_name": "Cameroon",
+    "position": 65
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 41,
+  "fields": {
+    "name": "Canada",
+    "alpha2code": "CA",
+    "alpha3code": "CAN",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Northern America"
+    ],
+    "capital": null,
+    "demonym": "Canadian",
+    "native_name": "Canada",
+    "population": 35749600,
+    "display_name": "Canada",
+    "position": 66
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 42,
+  "fields": {
+    "name": "Cape Verde",
+    "alpha2code": "CV",
+    "alpha3code": "CPV",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Cape Verdian",
+    "native_name": "Cabo Verde",
+    "population": 524833,
+    "display_name": "Cape Verde",
+    "position": 63
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 43,
+  "fields": {
+    "name": "Cayman Islands",
+    "alpha2code": "KY",
+    "alpha3code": "CYM",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Caymanian",
+    "native_name": "Cayman Islands",
+    "population": 58238,
+    "display_name": "Cayman Islands",
+    "position": 67
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 44,
+  "fields": {
+    "name": "Central African Republic",
+    "alpha2code": "CF",
+    "alpha3code": "CAF",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "Central African",
+    "native_name": "K\u00f6d\u00f6r\u00f6s\u00ease t\u00ee B\u00eaafr\u00eeka",
+    "population": 4900000,
+    "display_name": "Central African Republic",
+    "position": 68
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 45,
+  "fields": {
+    "name": "Chad",
+    "alpha2code": "TD",
+    "alpha3code": "TCD",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "Chadian",
+    "native_name": "Tchad",
+    "population": 14037000,
+    "display_name": "Chad",
+    "position": 69
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 46,
+  "fields": {
+    "name": "Chile",
+    "alpha2code": "CL",
+    "alpha3code": "CHL",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Chilean",
+    "native_name": "Chile",
+    "population": 18006407,
+    "display_name": "Chile",
+    "position": 70
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 47,
+  "fields": {
+    "name": "China",
+    "alpha2code": "CN",
+    "alpha3code": "CHN",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Chinese",
+    "native_name": "\u4e2d\u56fd",
+    "population": 1371590000,
+    "display_name": "China",
+    "position": 71
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 48,
+  "fields": {
+    "name": "Christmas Island",
+    "alpha2code": "CX",
+    "alpha3code": "CXR",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Australia and New Zealand"
+    ],
+    "capital": null,
+    "demonym": "Christmas Island",
+    "native_name": "Christmas Island",
+    "population": 2072,
+    "display_name": "Christmas Island",
+    "position": 72
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 49,
+  "fields": {
+    "name": "Cocos (Keeling) Islands",
+    "alpha2code": "CC",
+    "alpha3code": "CCK",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Australia and New Zealand"
+    ],
+    "capital": null,
+    "demonym": "Cocos Islander",
+    "native_name": "Cocos (Keeling) Islands",
+    "population": 550,
+    "display_name": "Cocos (Keeling) Islands",
+    "position": 73
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 50,
+  "fields": {
+    "name": "Colombia",
+    "alpha2code": "CO",
+    "alpha3code": "COL",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Colombian",
+    "native_name": "Colombia",
+    "population": 48266600,
+    "display_name": "Colombia",
+    "position": 74
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 51,
+  "fields": {
+    "name": "Comoros",
+    "alpha2code": "KM",
+    "alpha3code": "COM",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Comoran",
+    "native_name": "Komori",
+    "population": 784745,
+    "display_name": "Comoros",
+    "position": 75
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 52,
+  "fields": {
+    "name": "Republic of the Congo",
+    "alpha2code": "CG",
+    "alpha3code": "COG",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "Congolese",
+    "native_name": "R\u00e9publique du Congo",
+    "population": 4620000,
+    "display_name": "Congo",
+    "position": 76
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 53,
+  "fields": {
+    "name": "Democratic Republic of the Congo",
+    "alpha2code": "CD",
+    "alpha3code": "COD",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "Congolese",
+    "native_name": "R\u00e9publique d\u00e9mocratique du Congo",
+    "population": 77267000,
+    "display_name": "Congo, the Democratic Republic of the",
+    "position": 77
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 54,
+  "fields": {
+    "name": "Cook Islands",
+    "alpha2code": "CK",
+    "alpha3code": "COK",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "Cook Islander",
+    "native_name": "Cook Islands",
+    "population": 14974,
+    "display_name": "Cook Islands",
+    "position": 78
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 55,
+  "fields": {
+    "name": "Costa Rica",
+    "alpha2code": "CR",
+    "alpha3code": "CRI",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Central America"
+    ],
+    "capital": null,
+    "demonym": "Costa Rican",
+    "native_name": "Costa Rica",
+    "population": 4773130,
+    "display_name": "Costa Rica",
+    "position": 79
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 56,
+  "fields": {
+    "name": "Croatia",
+    "alpha2code": "HR",
+    "alpha3code": "HRV",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Croatian",
+    "native_name": "Hrvatska",
+    "population": 4246800,
+    "display_name": "Croatia",
+    "position": 4
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 57,
+  "fields": {
+    "name": "Cuba",
+    "alpha2code": "CU",
+    "alpha3code": "CUB",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Cuban",
+    "native_name": "Cuba",
+    "population": 11238317,
+    "display_name": "Cuba",
+    "position": 81
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 58,
+  "fields": {
+    "name": "Cura\u00e7ao",
+    "alpha2code": "CW",
+    "alpha3code": "CUW",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Dutch",
+    "native_name": "Cura\u00e7ao",
+    "population": 154843,
+    "display_name": "Cura\u00e7ao",
+    "position": 82
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 59,
+  "fields": {
+    "name": "Cyprus",
+    "alpha2code": "CY",
+    "alpha3code": "CYP",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Cypriot",
+    "native_name": "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2",
+    "population": 858000,
+    "display_name": "Cyprus",
+    "position": 5
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 60,
+  "fields": {
+    "name": "Czech Republic",
+    "alpha2code": "CZ",
+    "alpha3code": "CZE",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Czech",
+    "native_name": "\u010cesk\u00e1 republika",
+    "population": 10537818,
+    "display_name": "Czech Republic",
+    "position": 6
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 61,
+  "fields": {
+    "name": "Denmark",
+    "alpha2code": "DK",
+    "alpha3code": "DNK",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Danish",
+    "native_name": "Danmark",
+    "population": 5678348,
+    "display_name": "Denmark",
+    "position": 7
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 62,
+  "fields": {
+    "name": "Djibouti",
+    "alpha2code": "DJ",
+    "alpha3code": "DJI",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Djibouti",
+    "native_name": "Djibouti",
+    "population": 888000,
+    "display_name": "Djibouti",
+    "position": 83
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 63,
+  "fields": {
+    "name": "Dominica",
+    "alpha2code": "DM",
+    "alpha3code": "DMA",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Dominican",
+    "native_name": "Dominica",
+    "population": 71293,
+    "display_name": "Dominica",
+    "position": 84
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 64,
+  "fields": {
+    "name": "Dominican Republic",
+    "alpha2code": "DO",
+    "alpha3code": "DOM",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Dominican",
+    "native_name": "Rep\u00fablica Dominicana",
+    "population": 10528000,
+    "display_name": "Dominican Republic",
+    "position": 85
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 65,
+  "fields": {
+    "name": "Ecuador",
+    "alpha2code": "EC",
+    "alpha3code": "ECU",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Ecuadorean",
+    "native_name": "Ecuador",
+    "population": 16027500,
+    "display_name": "Ecuador",
+    "position": 86
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 66,
+  "fields": {
+    "name": "Egypt",
+    "alpha2code": "EG",
+    "alpha3code": "EGY",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Northern Africa"
+    ],
+    "capital": null,
+    "demonym": "Egyptian",
+    "native_name": "\u0645\u0635\u0631\u200e",
+    "population": 89335600,
+    "display_name": "Egypt",
+    "position": 87
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 67,
+  "fields": {
+    "name": "El Salvador",
+    "alpha2code": "SV",
+    "alpha3code": "SLV",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Central America"
+    ],
+    "capital": null,
+    "demonym": "Salvadoran",
+    "native_name": "El Salvador",
+    "population": 6401240,
+    "display_name": "El Salvador",
+    "position": 88
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 68,
+  "fields": {
+    "name": "Equatorial Guinea",
+    "alpha2code": "GQ",
+    "alpha3code": "GNQ",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "Equatorial Guinean",
+    "native_name": "Guinea Ecuatorial",
+    "population": 1430000,
+    "display_name": "Equatorial Guinea",
+    "position": 89
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 69,
+  "fields": {
+    "name": "Eritrea",
+    "alpha2code": "ER",
+    "alpha3code": "ERI",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Eritrean",
+    "native_name": "\u12a4\u122d\u1275\u122b",
+    "population": 5228000,
+    "display_name": "Eritrea",
+    "position": 90
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 70,
+  "fields": {
+    "name": "Estonia",
+    "alpha2code": "EE",
+    "alpha3code": "EST",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Estonian",
+    "native_name": "Eesti",
+    "population": 1313271,
+    "display_name": "Estonia",
+    "position": 8
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 71,
+  "fields": {
+    "name": "Ethiopia",
+    "alpha2code": "ET",
+    "alpha3code": "ETH",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Ethiopian",
+    "native_name": "\u12a2\u1275\u12ee\u1335\u12eb",
+    "population": 90076012,
+    "display_name": "Ethiopia",
+    "position": 91
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 72,
+  "fields": {
+    "name": "Falkland Islands",
+    "alpha2code": "FK",
+    "alpha3code": "FLK",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Falkland Islander",
+    "native_name": "Falkland Islands",
+    "population": 3000,
+    "display_name": "Falkland Islands (Malvinas)",
+    "position": 92
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 73,
+  "fields": {
+    "name": "Faroe Islands",
+    "alpha2code": "FO",
+    "alpha3code": "FRO",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Faroese",
+    "native_name": "F\u00f8royar",
+    "population": 48846,
+    "display_name": "Faroe Islands",
+    "position": 93
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 74,
+  "fields": {
+    "name": "Fiji",
+    "alpha2code": "FJ",
+    "alpha3code": "FJI",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Melanesia"
+    ],
+    "capital": null,
+    "demonym": "Fijian",
+    "native_name": "Fiji",
+    "population": 859178,
+    "display_name": "Fiji",
+    "position": 94
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 75,
+  "fields": {
+    "name": "Finland",
+    "alpha2code": "FI",
+    "alpha3code": "FIN",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Finnish",
+    "native_name": "Suomi",
+    "population": 5485215,
+    "display_name": "Finland",
+    "position": 9
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 76,
+  "fields": {
+    "name": "France",
+    "alpha2code": "FR",
+    "alpha3code": "FRA",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Western Europe"
+    ],
+    "capital": null,
+    "demonym": "French",
+    "native_name": "France",
+    "population": 66186000,
+    "display_name": "France",
+    "position": 10
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 77,
+  "fields": {
+    "name": "French Guiana",
+    "alpha2code": "GF",
+    "alpha3code": "GUF",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "",
+    "native_name": "Guyane fran\u00e7aise",
+    "population": 239648,
+    "display_name": "French Guiana",
+    "position": 95
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 78,
+  "fields": {
+    "name": "French Polynesia",
+    "alpha2code": "PF",
+    "alpha3code": "PYF",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "French Polynesian",
+    "native_name": "Polyn\u00e9sie fran\u00e7aise",
+    "population": 268270,
+    "display_name": "French Polynesia",
+    "position": 96
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 79,
+  "fields": {
+    "name": "French Southern and Antarctic Lands",
+    "alpha2code": "TF",
+    "alpha3code": "ATF",
+    "continent": [
+      ""
+    ],
+    "region": [
+      ""
+    ],
+    "capital": null,
+    "demonym": "French",
+    "native_name": "Territoire des Terres australes et antarctiques fran\u00e7aises",
+    "population": 140,
+    "display_name": "French Southern Territories",
+    "position": 97
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 80,
+  "fields": {
+    "name": "Gabon",
+    "alpha2code": "GA",
+    "alpha3code": "GAB",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "Gabonese",
+    "native_name": "Gabon",
+    "population": 1725000,
+    "display_name": "Gabon",
+    "position": 98
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 81,
+  "fields": {
+    "name": "The Gambia",
+    "alpha2code": "GM",
+    "alpha3code": "GMB",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Gambian",
+    "native_name": "Gambia",
+    "population": 1882450,
+    "display_name": "Gambia",
+    "position": 99
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 82,
+  "fields": {
+    "name": "Georgia",
+    "alpha2code": "GE",
+    "alpha3code": "GEO",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Georgian",
+    "native_name": "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd",
+    "population": 3729500,
+    "display_name": "Georgia",
+    "position": 100
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 83,
+  "fields": {
+    "name": "Germany",
+    "alpha2code": "DE",
+    "alpha3code": "DEU",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Western Europe"
+    ],
+    "capital": null,
+    "demonym": "German",
+    "native_name": "Deutschland",
+    "population": 81083600,
+    "display_name": "Germany",
+    "position": 11
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 84,
+  "fields": {
+    "name": "Ghana",
+    "alpha2code": "GH",
+    "alpha3code": "GHA",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Ghanaian",
+    "native_name": "Ghana",
+    "population": 27043093,
+    "display_name": "Ghana",
+    "position": 101
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 85,
+  "fields": {
+    "name": "Gibraltar",
+    "alpha2code": "GI",
+    "alpha3code": "GIB",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Gibraltar",
+    "native_name": "Gibraltar",
+    "population": 32734,
+    "display_name": "Gibraltar",
+    "position": 102
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 86,
+  "fields": {
+    "name": "Greece",
+    "alpha2code": "GR",
+    "alpha3code": "GRC",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Greek",
+    "native_name": "\u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+    "population": 10846979,
+    "display_name": "Greece",
+    "position": 12
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 87,
+  "fields": {
+    "name": "Greenland",
+    "alpha2code": "GL",
+    "alpha3code": "GRL",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Northern America"
+    ],
+    "capital": null,
+    "demonym": "Greenlandic",
+    "native_name": "Kalaallit Nunaat",
+    "population": 56114,
+    "display_name": "Greenland",
+    "position": 103
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 88,
+  "fields": {
+    "name": "Grenada",
+    "alpha2code": "GD",
+    "alpha3code": "GRD",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Grenadian",
+    "native_name": "Grenada",
+    "population": 103328,
+    "display_name": "Grenada",
+    "position": 104
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 89,
+  "fields": {
+    "name": "Guadeloupe",
+    "alpha2code": "GP",
+    "alpha3code": "GLP",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Guadeloupian",
+    "native_name": "Guadeloupe",
+    "population": 403750,
+    "display_name": "Guadeloupe",
+    "position": 105
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 90,
+  "fields": {
+    "name": "Guam",
+    "alpha2code": "GU",
+    "alpha3code": "GUM",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Micronesia"
+    ],
+    "capital": null,
+    "demonym": "Guamanian",
+    "native_name": "Guam",
+    "population": 159358,
+    "display_name": "Guam",
+    "position": 106
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 91,
+  "fields": {
+    "name": "Guatemala",
+    "alpha2code": "GT",
+    "alpha3code": "GTM",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Central America"
+    ],
+    "capital": null,
+    "demonym": "Guatemalan",
+    "native_name": "Guatemala",
+    "population": 16176133,
+    "display_name": "Guatemala",
+    "position": 107
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 92,
+  "fields": {
+    "name": "Guernsey",
+    "alpha2code": "GG",
+    "alpha3code": "GGY",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Channel Islander",
+    "native_name": "Guernsey",
+    "population": 65150,
+    "display_name": "Guernsey",
+    "position": 108
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 93,
+  "fields": {
+    "name": "Guinea",
+    "alpha2code": "GN",
+    "alpha3code": "GIN",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Guinean",
+    "native_name": "Guin\u00e9e",
+    "population": 10628972,
+    "display_name": "Guinea",
+    "position": 109
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 94,
+  "fields": {
+    "name": "Guinea-Bissau",
+    "alpha2code": "GW",
+    "alpha3code": "GNB",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Guinea-Bissauan",
+    "native_name": "Guin\u00e9-Bissau",
+    "population": 1844000,
+    "display_name": "Guinea-Bissau",
+    "position": 110
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 95,
+  "fields": {
+    "name": "Guyana",
+    "alpha2code": "GY",
+    "alpha3code": "GUY",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Guyanese",
+    "native_name": "Guyana",
+    "population": 746900,
+    "display_name": "Guyana",
+    "position": 111
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 96,
+  "fields": {
+    "name": "Haiti",
+    "alpha2code": "HT",
+    "alpha3code": "HTI",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Haitian",
+    "native_name": "Ha\u00efti",
+    "population": 10911819,
+    "display_name": "Haiti",
+    "position": 112
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 97,
+  "fields": {
+    "name": "Heard Island and McDonald Islands",
+    "alpha2code": "HM",
+    "alpha3code": "HMD",
+    "continent": [
+      ""
+    ],
+    "region": [
+      ""
+    ],
+    "capital": null,
+    "demonym": "Heard and McDonald Islander",
+    "native_name": "Heard Island and McDonald Islands",
+    "population": 0,
+    "display_name": "Heard Island and McDonald Islands",
+    "position": 113
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 98,
+  "fields": {
+    "name": "Honduras",
+    "alpha2code": "HN",
+    "alpha3code": "HND",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Central America"
+    ],
+    "capital": null,
+    "demonym": "Honduran",
+    "native_name": "Honduras",
+    "population": 8725111,
+    "display_name": "Honduras",
+    "position": 115
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 99,
+  "fields": {
+    "name": "Hong Kong",
+    "alpha2code": "HK",
+    "alpha3code": "HKG",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Chinese",
+    "native_name": "\u9999\u6e2f",
+    "population": 7298600,
+    "display_name": "Hong Kong",
+    "position": 116
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 100,
+  "fields": {
+    "name": "Hungary",
+    "alpha2code": "HU",
+    "alpha3code": "HUN",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Hungarian",
+    "native_name": "Magyarorsz\u00e1g",
+    "population": 9849000,
+    "display_name": "Hungary",
+    "position": 13
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 101,
+  "fields": {
+    "name": "Iceland",
+    "alpha2code": "IS",
+    "alpha3code": "ISL",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Icelander",
+    "native_name": "\u00cdsland",
+    "population": 330610,
+    "display_name": "Iceland",
+    "position": 117
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 102,
+  "fields": {
+    "name": "India",
+    "alpha2code": "IN",
+    "alpha3code": "IND",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Southern Asia"
+    ],
+    "capital": null,
+    "demonym": "Indian",
+    "native_name": "\u092d\u093e\u0930\u0924",
+    "population": 1275840000,
+    "display_name": "India",
+    "position": 118
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 103,
+  "fields": {
+    "name": "Indonesia",
+    "alpha2code": "ID",
+    "alpha3code": "IDN",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Indonesian",
+    "native_name": "Indonesia",
+    "population": 255461700,
+    "display_name": "Indonesia",
+    "position": 119
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 104,
+  "fields": {
+    "name": "Ivory Coast",
+    "alpha2code": "CI",
+    "alpha3code": "CIV",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Ivorian",
+    "native_name": "C\u00f4te d'Ivoire",
+    "population": 22671331,
+    "display_name": "Ivory Coast",
+    "position": 80
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 105,
+  "fields": {
+    "name": "Iran",
+    "alpha2code": "IR",
+    "alpha3code": "IRN",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Southern Asia"
+    ],
+    "capital": null,
+    "demonym": "Iranian",
+    "native_name": "Ir\u0101n",
+    "population": 78572500,
+    "display_name": "Iran",
+    "position": 120
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 106,
+  "fields": {
+    "name": "Iraq",
+    "alpha2code": "IQ",
+    "alpha3code": "IRQ",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Iraqi",
+    "native_name": "\u0627\u0644\u0639\u0631\u0627\u0642",
+    "population": 36004552,
+    "display_name": "Iraq",
+    "position": 121
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 107,
+  "fields": {
+    "name": "Republic of Ireland",
+    "alpha2code": "IE",
+    "alpha3code": "IRL",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Irish",
+    "native_name": "\u00c9ire",
+    "population": 6378000,
+    "display_name": "Ireland",
+    "position": 14
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 108,
+  "fields": {
+    "name": "Isle of Man",
+    "alpha2code": "IM",
+    "alpha3code": "IMN",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Manx",
+    "native_name": "Isle of Man",
+    "population": 84497,
+    "display_name": "Isle of Man",
+    "position": 122
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 109,
+  "fields": {
+    "name": "Israel",
+    "alpha2code": "IL",
+    "alpha3code": "ISR",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Israeli",
+    "native_name": "\u05d9\u05b4\u05e9\u05b0\u05c2\u05e8\u05b8\u05d0\u05b5\u05dc",
+    "population": 8371600,
+    "display_name": "Israel",
+    "position": 123
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 110,
+  "fields": {
+    "name": "Italy",
+    "alpha2code": "IT",
+    "alpha3code": "ITA",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Italian",
+    "native_name": "Italia",
+    "population": 60753794,
+    "display_name": "Italy",
+    "position": 15
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 111,
+  "fields": {
+    "name": "Jamaica",
+    "alpha2code": "JM",
+    "alpha3code": "JAM",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Jamaican",
+    "native_name": "Jamaica",
+    "population": 2717991,
+    "display_name": "Jamaica",
+    "position": 124
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 112,
+  "fields": {
+    "name": "Japan",
+    "alpha2code": "JP",
+    "alpha3code": "JPN",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Japanese",
+    "native_name": "\u65e5\u672c",
+    "population": 126865000,
+    "display_name": "Japan",
+    "position": 125
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 113,
+  "fields": {
+    "name": "Jersey",
+    "alpha2code": "JE",
+    "alpha3code": "JEY",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Channel Islander",
+    "native_name": "Jersey",
+    "population": 99000,
+    "display_name": "Jersey",
+    "position": 126
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 114,
+  "fields": {
+    "name": "Jordan",
+    "alpha2code": "JO",
+    "alpha3code": "JOR",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Jordanian",
+    "native_name": "\u0627\u0644\u0623\u0631\u062f\u0646",
+    "population": 6767600,
+    "display_name": "Jordan",
+    "position": 127
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 115,
+  "fields": {
+    "name": "Kazakhstan",
+    "alpha2code": "KZ",
+    "alpha3code": "KAZ",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Central Asia"
+    ],
+    "capital": null,
+    "demonym": "Kazakhstani",
+    "native_name": "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d",
+    "population": 17541200,
+    "display_name": "Kazakhstan",
+    "position": 128
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 116,
+  "fields": {
+    "name": "Kenya",
+    "alpha2code": "KE",
+    "alpha3code": "KEN",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Kenyan",
+    "native_name": "Kenya",
+    "population": 46050000,
+    "display_name": "Kenya",
+    "position": 129
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 117,
+  "fields": {
+    "name": "Kiribati",
+    "alpha2code": "KI",
+    "alpha3code": "KIR",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Micronesia"
+    ],
+    "capital": null,
+    "demonym": "I-Kiribati",
+    "native_name": "Kiribati",
+    "population": 106461,
+    "display_name": "Kiribati",
+    "position": 130
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 118,
+  "fields": {
+    "name": "Kuwait",
+    "alpha2code": "KW",
+    "alpha3code": "KWT",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Kuwaiti",
+    "native_name": "\u0627\u0644\u0643\u0648\u064a\u062a",
+    "population": 3268431,
+    "display_name": "Kuwait",
+    "position": 133
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 119,
+  "fields": {
+    "name": "Kyrgyzstan",
+    "alpha2code": "KG",
+    "alpha3code": "KGZ",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Central Asia"
+    ],
+    "capital": null,
+    "demonym": "Kirghiz",
+    "native_name": "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
+    "population": 5944400,
+    "display_name": "Kyrgyzstan",
+    "position": 134
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 120,
+  "fields": {
+    "name": "Laos",
+    "alpha2code": "LA",
+    "alpha3code": "LAO",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Laotian",
+    "native_name": "\u0eaa\u0e9b\u0e9b\u0ea5\u0eb2\u0ea7",
+    "population": 6802000,
+    "display_name": "Lao People's Democratic Republic",
+    "position": 135
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 121,
+  "fields": {
+    "name": "Latvia",
+    "alpha2code": "LV",
+    "alpha3code": "LVA",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Latvian",
+    "native_name": "Latvija",
+    "population": 1980700,
+    "display_name": "Latvia",
+    "position": 16
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 122,
+  "fields": {
+    "name": "Lebanon",
+    "alpha2code": "LB",
+    "alpha3code": "LBN",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Lebanese",
+    "native_name": "\u0644\u0628\u0646\u0627\u0646",
+    "population": 4104000,
+    "display_name": "Lebanon",
+    "position": 136
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 123,
+  "fields": {
+    "name": "Lesotho",
+    "alpha2code": "LS",
+    "alpha3code": "LSO",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Southern Africa"
+    ],
+    "capital": null,
+    "demonym": "Mosotho",
+    "native_name": "Lesotho",
+    "population": 2135000,
+    "display_name": "Lesotho",
+    "position": 137
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 124,
+  "fields": {
+    "name": "Liberia",
+    "alpha2code": "LR",
+    "alpha3code": "LBR",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Liberian",
+    "native_name": "Liberia",
+    "population": 4503000,
+    "display_name": "Liberia",
+    "position": 138
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 125,
+  "fields": {
+    "name": "Libya",
+    "alpha2code": "LY",
+    "alpha3code": "LBY",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Northern Africa"
+    ],
+    "capital": null,
+    "demonym": "Libyan",
+    "native_name": "\u200f\u0644\u064a\u0628\u064a\u0627",
+    "population": 6278000,
+    "display_name": "Libya",
+    "position": 139
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 126,
+  "fields": {
+    "name": "Liechtenstein",
+    "alpha2code": "LI",
+    "alpha3code": "LIE",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Western Europe"
+    ],
+    "capital": null,
+    "demonym": "Liechtensteiner",
+    "native_name": "Liechtenstein",
+    "population": 37370,
+    "display_name": "Liechtenstein",
+    "position": 140
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 127,
+  "fields": {
+    "name": "Lithuania",
+    "alpha2code": "LT",
+    "alpha3code": "LTU",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Lithuanian",
+    "native_name": "Lietuva",
+    "population": 2900787,
+    "display_name": "Lithuania",
+    "position": 17
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 128,
+  "fields": {
+    "name": "Luxembourg",
+    "alpha2code": "LU",
+    "alpha3code": "LUX",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Western Europe"
+    ],
+    "capital": null,
+    "demonym": "Luxembourger",
+    "native_name": "Luxembourg",
+    "population": 562958,
+    "display_name": "Luxembourg",
+    "position": 18
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 129,
+  "fields": {
+    "name": "Macau",
+    "alpha2code": "MO",
+    "alpha3code": "MAC",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Chinese",
+    "native_name": "\u6fb3\u9580",
+    "population": 642900,
+    "display_name": "Macao",
+    "position": 141
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 130,
+  "fields": {
+    "name": "Republic of Macedonia",
+    "alpha2code": "MK",
+    "alpha3code": "MKD",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Macedonian",
+    "native_name": "\u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430",
+    "population": 2058539,
+    "display_name": "Macedonia",
+    "position": 142
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 131,
+  "fields": {
+    "name": "Madagascar",
+    "alpha2code": "MG",
+    "alpha3code": "MDG",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Malagasy",
+    "native_name": "Madagasikara",
+    "population": 22434363,
+    "display_name": "Madagascar",
+    "position": 143
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 132,
+  "fields": {
+    "name": "Malawi",
+    "alpha2code": "MW",
+    "alpha3code": "MWI",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Malawian",
+    "native_name": "Malawi",
+    "population": 16310431,
+    "display_name": "Malawi",
+    "position": 144
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 133,
+  "fields": {
+    "name": "Malaysia",
+    "alpha2code": "MY",
+    "alpha3code": "MYS",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Malaysian",
+    "native_name": "Malaysia",
+    "population": 30678800,
+    "display_name": "Malaysia",
+    "position": 145
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 134,
+  "fields": {
+    "name": "Maldives",
+    "alpha2code": "MV",
+    "alpha3code": "MDV",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Southern Asia"
+    ],
+    "capital": null,
+    "demonym": "Maldivan",
+    "native_name": "Maldives",
+    "population": 341256,
+    "display_name": "Maldives",
+    "position": 146
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 135,
+  "fields": {
+    "name": "Mali",
+    "alpha2code": "ML",
+    "alpha3code": "MLI",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Malian",
+    "native_name": "Mali",
+    "population": 17600000,
+    "display_name": "Mali",
+    "position": 147
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 136,
+  "fields": {
+    "name": "Malta",
+    "alpha2code": "MT",
+    "alpha3code": "MLT",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Maltese",
+    "native_name": "Malta",
+    "population": 445426,
+    "display_name": "Malta",
+    "position": 19
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 137,
+  "fields": {
+    "name": "Marshall Islands",
+    "alpha2code": "MH",
+    "alpha3code": "MHL",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Micronesia"
+    ],
+    "capital": null,
+    "demonym": "Marshallese",
+    "native_name": "M\u0327aje\u013c",
+    "population": 56086,
+    "display_name": "Marshall Islands",
+    "position": 148
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 138,
+  "fields": {
+    "name": "Martinique",
+    "alpha2code": "MQ",
+    "alpha3code": "MTQ",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "French",
+    "native_name": "Martinique",
+    "population": 381326,
+    "display_name": "Martinique",
+    "position": 149
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 139,
+  "fields": {
+    "name": "Mauritania",
+    "alpha2code": "MR",
+    "alpha3code": "MRT",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Mauritanian",
+    "native_name": "\u0645\u0648\u0631\u064a\u062a\u0627\u0646\u064a\u0627",
+    "population": 3631775,
+    "display_name": "Mauritania",
+    "position": 150
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 140,
+  "fields": {
+    "name": "Mauritius",
+    "alpha2code": "MU",
+    "alpha3code": "MUS",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Mauritian",
+    "native_name": "Maurice",
+    "population": 1261208,
+    "display_name": "Mauritius",
+    "position": 151
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 141,
+  "fields": {
+    "name": "Mayotte",
+    "alpha2code": "YT",
+    "alpha3code": "MYT",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "French",
+    "native_name": "Mayotte",
+    "population": 212645,
+    "display_name": "Mayotte",
+    "position": 152
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 142,
+  "fields": {
+    "name": "Mexico",
+    "alpha2code": "MX",
+    "alpha3code": "MEX",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Central America"
+    ],
+    "capital": null,
+    "demonym": "Mexican",
+    "native_name": "M\u00e9xico",
+    "population": 121740000,
+    "display_name": "Mexico",
+    "position": 153
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 143,
+  "fields": {
+    "name": "Federated States of Micronesia",
+    "alpha2code": "FM",
+    "alpha3code": "FSM",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Micronesia"
+    ],
+    "capital": null,
+    "demonym": "Micronesian",
+    "native_name": "Micronesia",
+    "population": 101351,
+    "display_name": "Micronesia, Federated States of",
+    "position": 154
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 144,
+  "fields": {
+    "name": "Moldova",
+    "alpha2code": "MD",
+    "alpha3code": "MDA",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Moldovan",
+    "native_name": "Moldova",
+    "population": 3555200,
+    "display_name": "Moldova, Republic of",
+    "position": 155
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 145,
+  "fields": {
+    "name": "Monaco",
+    "alpha2code": "MC",
+    "alpha3code": "MCO",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Western Europe"
+    ],
+    "capital": null,
+    "demonym": "Monegasque",
+    "native_name": "Monaco",
+    "population": 37800,
+    "display_name": "Monaco",
+    "position": 156
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 146,
+  "fields": {
+    "name": "Mongolia",
+    "alpha2code": "MN",
+    "alpha3code": "MNG",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Mongolian",
+    "native_name": "\u041c\u043e\u043d\u0433\u043e\u043b \u0443\u043b\u0441",
+    "population": 3031099,
+    "display_name": "Mongolia",
+    "position": 157
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 147,
+  "fields": {
+    "name": "Montenegro",
+    "alpha2code": "ME",
+    "alpha3code": "MNE",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Montenegrin",
+    "native_name": "\u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430",
+    "population": 621207,
+    "display_name": "Montenegro",
+    "position": 158
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 148,
+  "fields": {
+    "name": "Montserrat",
+    "alpha2code": "MS",
+    "alpha3code": "MSR",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Montserratian",
+    "native_name": "Montserrat",
+    "population": 4922,
+    "display_name": "Montserrat",
+    "position": 159
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 149,
+  "fields": {
+    "name": "Morocco",
+    "alpha2code": "MA",
+    "alpha3code": "MAR",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Northern Africa"
+    ],
+    "capital": null,
+    "demonym": "Moroccan",
+    "native_name": "\u0627\u0644\u0645\u063a\u0631\u0628",
+    "population": 33337529,
+    "display_name": "Morocco",
+    "position": 160
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 150,
+  "fields": {
+    "name": "Mozambique",
+    "alpha2code": "MZ",
+    "alpha3code": "MOZ",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Mozambican",
+    "native_name": "Mo\u00e7ambique",
+    "population": 25727911,
+    "display_name": "Mozambique",
+    "position": 161
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 151,
+  "fields": {
+    "name": "Myanmar",
+    "alpha2code": "MM",
+    "alpha3code": "MMR",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Burmese",
+    "native_name": "Myanma",
+    "population": 53897000,
+    "display_name": "Myanmar",
+    "position": 162
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 152,
+  "fields": {
+    "name": "Namibia",
+    "alpha2code": "NA",
+    "alpha3code": "NAM",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Southern Africa"
+    ],
+    "capital": null,
+    "demonym": "Namibian",
+    "native_name": "Namibia",
+    "population": 2280700,
+    "display_name": "Namibia",
+    "position": 163
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 153,
+  "fields": {
+    "name": "Nauru",
+    "alpha2code": "NR",
+    "alpha3code": "NRU",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Micronesia"
+    ],
+    "capital": null,
+    "demonym": "Nauruan",
+    "native_name": "Nauru",
+    "population": 10084,
+    "display_name": "Nauru",
+    "position": 164
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 154,
+  "fields": {
+    "name": "Nepal",
+    "alpha2code": "NP",
+    "alpha3code": "NPL",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Southern Asia"
+    ],
+    "capital": null,
+    "demonym": "Nepalese",
+    "native_name": "\u0928\u092a\u0932",
+    "population": 28037904,
+    "display_name": "Nepal",
+    "position": 165
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 155,
+  "fields": {
+    "name": "Netherlands",
+    "alpha2code": "NL",
+    "alpha3code": "NLD",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Western Europe"
+    ],
+    "capital": null,
+    "demonym": "Dutch",
+    "native_name": "Nederland",
+    "population": 16916000,
+    "display_name": "Netherlands",
+    "position": 20
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 156,
+  "fields": {
+    "name": "New Caledonia",
+    "alpha2code": "NC",
+    "alpha3code": "NCL",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Melanesia"
+    ],
+    "capital": null,
+    "demonym": "New Caledonian",
+    "native_name": "Nouvelle-Cal\u00e9donie",
+    "population": 268767,
+    "display_name": "New Caledonia",
+    "position": 166
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 157,
+  "fields": {
+    "name": "New Zealand",
+    "alpha2code": "NZ",
+    "alpha3code": "NZL",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Australia and New Zealand"
+    ],
+    "capital": null,
+    "demonym": "New Zealander",
+    "native_name": "New Zealand",
+    "population": 4609440,
+    "display_name": "New Zealand",
+    "position": 167
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 158,
+  "fields": {
+    "name": "Nicaragua",
+    "alpha2code": "NI",
+    "alpha3code": "NIC",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Central America"
+    ],
+    "capital": null,
+    "demonym": "Nicaraguan",
+    "native_name": "Nicaragua",
+    "population": 6198154,
+    "display_name": "Nicaragua",
+    "position": 168
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 159,
+  "fields": {
+    "name": "Niger",
+    "alpha2code": "NE",
+    "alpha3code": "NER",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Nigerien",
+    "native_name": "Niger",
+    "population": 19899000,
+    "display_name": "Niger",
+    "position": 169
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 160,
+  "fields": {
+    "name": "Nigeria",
+    "alpha2code": "NG",
+    "alpha3code": "NGA",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Nigerian",
+    "native_name": "Nigeria",
+    "population": 182202000,
+    "display_name": "Nigeria",
+    "position": 170
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 161,
+  "fields": {
+    "name": "Niue",
+    "alpha2code": "NU",
+    "alpha3code": "NIU",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "Niuean",
+    "native_name": "Niu\u0113",
+    "population": 1613,
+    "display_name": "Niue",
+    "position": 171
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 162,
+  "fields": {
+    "name": "Norfolk Island",
+    "alpha2code": "NF",
+    "alpha3code": "NFK",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Australia and New Zealand"
+    ],
+    "capital": null,
+    "demonym": "Norfolk Islander",
+    "native_name": "Norfolk Island",
+    "population": 2302,
+    "display_name": "Norfolk Island",
+    "position": 172
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 163,
+  "fields": {
+    "name": "North Korea",
+    "alpha2code": "KP",
+    "alpha3code": "PRK",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "North Korean",
+    "native_name": "\ubd81\ud55c",
+    "population": 25155000,
+    "display_name": "Korea, Democratic People's Republic of",
+    "position": 131
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 164,
+  "fields": {
+    "name": "Northern Mariana Islands",
+    "alpha2code": "MP",
+    "alpha3code": "MNP",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Micronesia"
+    ],
+    "capital": null,
+    "demonym": "American",
+    "native_name": "Northern Mariana Islands",
+    "population": 53883,
+    "display_name": "Northern Mariana Islands",
+    "position": 173
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 165,
+  "fields": {
+    "name": "Norway",
+    "alpha2code": "NO",
+    "alpha3code": "NOR",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Norwegian",
+    "native_name": "Norge",
+    "population": 5176998,
+    "display_name": "Norway",
+    "position": 174
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 166,
+  "fields": {
+    "name": "Oman",
+    "alpha2code": "OM",
+    "alpha3code": "OMN",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Omani",
+    "native_name": "\u0639\u0645\u0627\u0646",
+    "population": 4185440,
+    "display_name": "Oman",
+    "position": 175
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 167,
+  "fields": {
+    "name": "Pakistan",
+    "alpha2code": "PK",
+    "alpha3code": "PAK",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Southern Asia"
+    ],
+    "capital": null,
+    "demonym": "Pakistani",
+    "native_name": "Pakistan",
+    "population": 190668000,
+    "display_name": "Pakistan",
+    "position": 176
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 168,
+  "fields": {
+    "name": "Palau",
+    "alpha2code": "PW",
+    "alpha3code": "PLW",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Micronesia"
+    ],
+    "capital": null,
+    "demonym": "Palauan",
+    "native_name": "Palau",
+    "population": 20901,
+    "display_name": "Palau",
+    "position": 177
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 169,
+  "fields": {
+    "name": "Palestine",
+    "alpha2code": "PS",
+    "alpha3code": "PSE",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Palestinian",
+    "native_name": "\u0641\u0644\u0633\u0637\u064a\u0646",
+    "population": 4682467,
+    "display_name": "Palestine, State of",
+    "position": 178
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 170,
+  "fields": {
+    "name": "Panama",
+    "alpha2code": "PA",
+    "alpha3code": "PAN",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Central America"
+    ],
+    "capital": null,
+    "demonym": "Panamanian",
+    "native_name": "Panam\u00e1",
+    "population": 3764166,
+    "display_name": "Panama",
+    "position": 179
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 171,
+  "fields": {
+    "name": "Papua New Guinea",
+    "alpha2code": "PG",
+    "alpha3code": "PNG",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Melanesia"
+    ],
+    "capital": null,
+    "demonym": "Papua New Guinean",
+    "native_name": "Papua Niugini",
+    "population": 7398500,
+    "display_name": "Papua New Guinea",
+    "position": 180
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 172,
+  "fields": {
+    "name": "Paraguay",
+    "alpha2code": "PY",
+    "alpha3code": "PRY",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Paraguayan",
+    "native_name": "Paraguay",
+    "population": 7003406,
+    "display_name": "Paraguay",
+    "position": 181
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 173,
+  "fields": {
+    "name": "Peru",
+    "alpha2code": "PE",
+    "alpha3code": "PER",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Peruvian",
+    "native_name": "Per\u00fa",
+    "population": 31151643,
+    "display_name": "Peru",
+    "position": 182
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 174,
+  "fields": {
+    "name": "Philippines",
+    "alpha2code": "PH",
+    "alpha3code": "PHL",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Filipino",
+    "native_name": "Pilipinas",
+    "population": 101920000,
+    "display_name": "Philippines",
+    "position": 183
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 175,
+  "fields": {
+    "name": "Pitcairn Islands",
+    "alpha2code": "PN",
+    "alpha3code": "PCN",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "Pitcairn Islander",
+    "native_name": "Pitcairn Islands",
+    "population": 56,
+    "display_name": "Pitcairn",
+    "position": 184
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 176,
+  "fields": {
+    "name": "Poland",
+    "alpha2code": "PL",
+    "alpha3code": "POL",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Polish",
+    "native_name": "Polska",
+    "population": 38484000,
+    "display_name": "Poland",
+    "position": 21
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 177,
+  "fields": {
+    "name": "Portugal",
+    "alpha2code": "PT",
+    "alpha3code": "PRT",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Portuguese",
+    "native_name": "Portugal",
+    "population": 10374822,
+    "display_name": "Portugal",
+    "position": 22
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 178,
+  "fields": {
+    "name": "Puerto Rico",
+    "alpha2code": "PR",
+    "alpha3code": "PRI",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Puerto Rican",
+    "native_name": "Puerto Rico",
+    "population": 3548397,
+    "display_name": "Puerto Rico",
+    "position": 185
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 179,
+  "fields": {
+    "name": "Qatar",
+    "alpha2code": "QA",
+    "alpha3code": "QAT",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Qatari",
+    "native_name": "\u0642\u0637\u0631",
+    "population": 2120129,
+    "display_name": "Qatar",
+    "position": 186
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 180,
+  "fields": {
+    "name": "Republic of Kosovo",
+    "alpha2code": "XK",
+    "alpha3code": "KOS",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Kosovar",
+    "native_name": "Republika e Kosov\u00ebs",
+    "population": 1733842,
+    "display_name": "Republic of Kosovo",
+    "position": 250
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 181,
+  "fields": {
+    "name": "R\u00e9union",
+    "alpha2code": "RE",
+    "alpha3code": "REU",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "French",
+    "native_name": "La R\u00e9union",
+    "population": 840974,
+    "display_name": "R\u00e9union",
+    "position": 187
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 182,
+  "fields": {
+    "name": "Romania",
+    "alpha2code": "RO",
+    "alpha3code": "ROU",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Romanian",
+    "native_name": "Rom\u00e2nia",
+    "population": 19942642,
+    "display_name": "Romania",
+    "position": 23
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 183,
+  "fields": {
+    "name": "Russia",
+    "alpha2code": "RU",
+    "alpha3code": "RUS",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Russian",
+    "native_name": "\u0420\u043e\u0441\u0441\u0438\u044f",
+    "population": 146556330,
+    "display_name": "Russian Federation",
+    "position": 188
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 184,
+  "fields": {
+    "name": "Rwanda",
+    "alpha2code": "RW",
+    "alpha3code": "RWA",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Rwandan",
+    "native_name": "Rwanda",
+    "population": 11262564,
+    "display_name": "Rwanda",
+    "position": 189
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 185,
+  "fields": {
+    "name": "Saint Barth\u00e9lemy",
+    "alpha2code": "BL",
+    "alpha3code": "BLM",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Saint Barth\u00e9lemy Islander",
+    "native_name": "Saint-Barth\u00e9lemy",
+    "population": 9269,
+    "display_name": "Saint Barth\u00e9lemy",
+    "position": 190
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 186,
+  "fields": {
+    "name": "Saint Helena",
+    "alpha2code": "SH",
+    "alpha3code": "SHN",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Saint Helenian",
+    "native_name": "Saint Helena",
+    "population": 4255,
+    "display_name": "Saint Helena, Ascension and Tristan da Cunha",
+    "position": 191
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 187,
+  "fields": {
+    "name": "Saint Kitts and Nevis",
+    "alpha2code": "KN",
+    "alpha3code": "KNA",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Kittian and Nevisian",
+    "native_name": "Saint Kitts and Nevis",
+    "population": 56000,
+    "display_name": "Saint Kitts and Nevis",
+    "position": 192
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 188,
+  "fields": {
+    "name": "Saint Lucia",
+    "alpha2code": "LC",
+    "alpha3code": "LCA",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Saint Lucian",
+    "native_name": "Saint Lucia",
+    "population": 185000,
+    "display_name": "Saint Lucia",
+    "position": 193
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 189,
+  "fields": {
+    "name": "Saint Martin",
+    "alpha2code": "MF",
+    "alpha3code": "MAF",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Saint Martin Islander",
+    "native_name": "Saint-Martin",
+    "population": 36979,
+    "display_name": "Saint Martin (French part)",
+    "position": 194
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 190,
+  "fields": {
+    "name": "Saint Pierre and Miquelon",
+    "alpha2code": "PM",
+    "alpha3code": "SPM",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Northern America"
+    ],
+    "capital": null,
+    "demonym": "French",
+    "native_name": "Saint-Pierre-et-Miquelon",
+    "population": 6069,
+    "display_name": "Saint Pierre and Miquelon",
+    "position": 195
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 191,
+  "fields": {
+    "name": "Saint Vincent and the Grenadines",
+    "alpha2code": "VC",
+    "alpha3code": "VCT",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Saint Vincentian",
+    "native_name": "Saint Vincent and the Grenadines",
+    "population": 109991,
+    "display_name": "Saint Vincent and the Grenadines",
+    "position": 196
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 192,
+  "fields": {
+    "name": "Samoa",
+    "alpha2code": "WS",
+    "alpha3code": "WSM",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "Samoan",
+    "native_name": "Samoa",
+    "population": 187820,
+    "display_name": "Samoa",
+    "position": 197
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 193,
+  "fields": {
+    "name": "San Marino",
+    "alpha2code": "SM",
+    "alpha3code": "SMR",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Sammarinese",
+    "native_name": "San Marino",
+    "population": 32831,
+    "display_name": "San Marino",
+    "position": 198
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 194,
+  "fields": {
+    "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "alpha2code": "ST",
+    "alpha3code": "STP",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "Sao Tomean",
+    "native_name": "S\u00e3o Tom\u00e9 e Pr\u00edncipe",
+    "population": 187356,
+    "display_name": "Sao Tome and Principe",
+    "position": 199
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 195,
+  "fields": {
+    "name": "Saudi Arabia",
+    "alpha2code": "SA",
+    "alpha3code": "SAU",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Saudi Arabian",
+    "native_name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+    "population": 31521418,
+    "display_name": "Saudi Arabia",
+    "position": 200
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 196,
+  "fields": {
+    "name": "Senegal",
+    "alpha2code": "SN",
+    "alpha3code": "SEN",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Senegalese",
+    "native_name": "S\u00e9n\u00e9gal",
+    "population": 13508715,
+    "display_name": "Senegal",
+    "position": 201
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 197,
+  "fields": {
+    "name": "Serbia",
+    "alpha2code": "RS",
+    "alpha3code": "SRB",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Serbian",
+    "native_name": "\u0421\u0440\u0431\u0438\u0458\u0430",
+    "population": 7114393,
+    "display_name": "Serbia",
+    "position": 202
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 198,
+  "fields": {
+    "name": "Seychelles",
+    "alpha2code": "SC",
+    "alpha3code": "SYC",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Seychellois",
+    "native_name": "Seychelles",
+    "population": 89949,
+    "display_name": "Seychelles",
+    "position": 203
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 199,
+  "fields": {
+    "name": "Sierra Leone",
+    "alpha2code": "SL",
+    "alpha3code": "SLE",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Sierra Leonean",
+    "native_name": "Sierra Leone",
+    "population": 6453000,
+    "display_name": "Sierra Leone",
+    "position": 204
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 200,
+  "fields": {
+    "name": "Singapore",
+    "alpha2code": "SG",
+    "alpha3code": "SGP",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Singaporean",
+    "native_name": "Singapore",
+    "population": 5469700,
+    "display_name": "Singapore",
+    "position": 205
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 201,
+  "fields": {
+    "name": "Sint Maarten",
+    "alpha2code": "SX",
+    "alpha3code": "SXM",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Dutch",
+    "native_name": "Sint Maarten",
+    "population": 37429,
+    "display_name": "Sint Maarten (Dutch part)",
+    "position": 206
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 202,
+  "fields": {
+    "name": "Slovakia",
+    "alpha2code": "SK",
+    "alpha3code": "SVK",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Slovak",
+    "native_name": "Slovensko",
+    "population": 5421349,
+    "display_name": "Slovakia",
+    "position": 24
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 203,
+  "fields": {
+    "name": "Slovenia",
+    "alpha2code": "SI",
+    "alpha3code": "SVN",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Slovene",
+    "native_name": "Slovenija",
+    "population": 2067683,
+    "display_name": "Slovenia",
+    "position": 25
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 204,
+  "fields": {
+    "name": "Solomon Islands",
+    "alpha2code": "SB",
+    "alpha3code": "SLB",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Melanesia"
+    ],
+    "capital": null,
+    "demonym": "Solomon Islander",
+    "native_name": "Solomon Islands",
+    "population": 581344,
+    "display_name": "Solomon Islands",
+    "position": 207
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 205,
+  "fields": {
+    "name": "Somalia",
+    "alpha2code": "SO",
+    "alpha3code": "SOM",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Somali",
+    "native_name": "Soomaaliya",
+    "population": 10787000,
+    "display_name": "Somalia",
+    "position": 208
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 206,
+  "fields": {
+    "name": "South Africa",
+    "alpha2code": "ZA",
+    "alpha3code": "ZAF",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Southern Africa"
+    ],
+    "capital": null,
+    "demonym": "South African",
+    "native_name": "South Africa",
+    "population": 54956900,
+    "display_name": "South Africa",
+    "position": 209
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 207,
+  "fields": {
+    "name": "South Georgia",
+    "alpha2code": "GS",
+    "alpha3code": "SGS",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "South Georgia and the South Sandwich Islander",
+    "native_name": "South Georgia",
+    "population": 30,
+    "display_name": "South Georgia and the South Sandwich Islands",
+    "position": 210
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 208,
+  "fields": {
+    "name": "South Korea",
+    "alpha2code": "KR",
+    "alpha3code": "KOR",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "South Korean",
+    "native_name": "\ub300\ud55c\ubbfc\uad6d",
+    "population": 51448183,
+    "display_name": "Korea, Republic of",
+    "position": 132
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 209,
+  "fields": {
+    "name": "South Sudan",
+    "alpha2code": "SS",
+    "alpha3code": "SSD",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Middle Africa"
+    ],
+    "capital": null,
+    "demonym": "South Sudanese",
+    "native_name": "South Sudan",
+    "population": 11892934,
+    "display_name": "South Sudan",
+    "position": 211
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 210,
+  "fields": {
+    "name": "Spain",
+    "alpha2code": "ES",
+    "alpha3code": "ESP",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Southern Europe"
+    ],
+    "capital": null,
+    "demonym": "Spanish",
+    "native_name": "Espa\u00f1a",
+    "population": 46439864,
+    "display_name": "Spain",
+    "position": 26
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 211,
+  "fields": {
+    "name": "Sri Lanka",
+    "alpha2code": "LK",
+    "alpha3code": "LKA",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Southern Asia"
+    ],
+    "capital": null,
+    "demonym": "Sri Lankan",
+    "native_name": "\u015br\u012b la\u1e43k\u0101va",
+    "population": 20675000,
+    "display_name": "Sri Lanka",
+    "position": 212
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 212,
+  "fields": {
+    "name": "Sudan",
+    "alpha2code": "SD",
+    "alpha3code": "SDN",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Northern Africa"
+    ],
+    "capital": null,
+    "demonym": "Sudanese",
+    "native_name": "\u0627\u0644\u0633\u0648\u062f\u0627\u0646",
+    "population": 38435252,
+    "display_name": "Sudan",
+    "position": 213
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 213,
+  "fields": {
+    "name": "Suriname",
+    "alpha2code": "SR",
+    "alpha3code": "SUR",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Surinamer",
+    "native_name": "Suriname",
+    "population": 534189,
+    "display_name": "Suriname",
+    "position": 214
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 214,
+  "fields": {
+    "name": "Svalbard and Jan Mayen",
+    "alpha2code": "SJ",
+    "alpha3code": "SJM",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Norwegian",
+    "native_name": "Svalbard og Jan Mayen",
+    "population": 2562,
+    "display_name": "Svalbard and Jan Mayen",
+    "position": 215
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 215,
+  "fields": {
+    "name": "Swaziland",
+    "alpha2code": "SZ",
+    "alpha3code": "SWZ",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Southern Africa"
+    ],
+    "capital": null,
+    "demonym": "Swazi",
+    "native_name": "Swaziland",
+    "population": 1119375,
+    "display_name": "Swaziland",
+    "position": 216
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 216,
+  "fields": {
+    "name": "Sweden",
+    "alpha2code": "SE",
+    "alpha3code": "SWE",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "Swedish",
+    "native_name": "Sverige",
+    "population": 9793172,
+    "display_name": "Sweden",
+    "position": 27
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 217,
+  "fields": {
+    "name": "Switzerland",
+    "alpha2code": "CH",
+    "alpha3code": "CHE",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Western Europe"
+    ],
+    "capital": null,
+    "demonym": "Swiss",
+    "native_name": "Schweiz",
+    "population": 8256000,
+    "display_name": "Switzerland",
+    "position": 217
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 218,
+  "fields": {
+    "name": "Syria",
+    "alpha2code": "SY",
+    "alpha3code": "SYR",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Syrian",
+    "native_name": "\u0633\u0648\u0631\u064a\u0627",
+    "population": 23339517,
+    "display_name": "Syrian Arab Republic",
+    "position": 218
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 219,
+  "fields": {
+    "name": "Taiwan",
+    "alpha2code": "TW",
+    "alpha3code": "TWN",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Taiwanese",
+    "native_name": "\u81fa\u7063",
+    "population": 23461708,
+    "display_name": "Taiwan, Province of China",
+    "position": 219
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 220,
+  "fields": {
+    "name": "Tajikistan",
+    "alpha2code": "TJ",
+    "alpha3code": "TJK",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Central Asia"
+    ],
+    "capital": null,
+    "demonym": "Tadzhik",
+    "native_name": "\u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
+    "population": 8354000,
+    "display_name": "Tajikistan",
+    "position": 220
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 221,
+  "fields": {
+    "name": "Tanzania",
+    "alpha2code": "TZ",
+    "alpha3code": "TZA",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Tanzanian",
+    "native_name": "Tanzania",
+    "population": 53470000,
+    "display_name": "Tanzania, United Republic of",
+    "position": 221
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 222,
+  "fields": {
+    "name": "Thailand",
+    "alpha2code": "TH",
+    "alpha3code": "THA",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Thai",
+    "native_name": "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+    "population": 65104000,
+    "display_name": "Thailand",
+    "position": 222
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 223,
+  "fields": {
+    "name": "East Timor",
+    "alpha2code": "TL",
+    "alpha3code": "TLS",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "East Timorese",
+    "native_name": "Timor-Leste",
+    "population": 1212107,
+    "display_name": "Timor-Leste",
+    "position": 223
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 224,
+  "fields": {
+    "name": "Togo",
+    "alpha2code": "TG",
+    "alpha3code": "TGO",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Western Africa"
+    ],
+    "capital": null,
+    "demonym": "Togolese",
+    "native_name": "Togo",
+    "population": 7305000,
+    "display_name": "Togo",
+    "position": 224
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 225,
+  "fields": {
+    "name": "Tokelau",
+    "alpha2code": "TK",
+    "alpha3code": "TKL",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "Tokelauan",
+    "native_name": "Tokelau",
+    "population": 1411,
+    "display_name": "Tokelau",
+    "position": 225
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 226,
+  "fields": {
+    "name": "Tonga",
+    "alpha2code": "TO",
+    "alpha3code": "TON",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "Tongan",
+    "native_name": "Tonga",
+    "population": 103252,
+    "display_name": "Tonga",
+    "position": 226
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 227,
+  "fields": {
+    "name": "Trinidad and Tobago",
+    "alpha2code": "TT",
+    "alpha3code": "TTO",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Trinidadian",
+    "native_name": "Trinidad and Tobago",
+    "population": 1340557,
+    "display_name": "Trinidad and Tobago",
+    "position": 227
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 228,
+  "fields": {
+    "name": "Tunisia",
+    "alpha2code": "TN",
+    "alpha3code": "TUN",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Northern Africa"
+    ],
+    "capital": null,
+    "demonym": "Tunisian",
+    "native_name": "\u062a\u0648\u0646\u0633",
+    "population": 10982754,
+    "display_name": "Tunisia",
+    "position": 228
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 229,
+  "fields": {
+    "name": "Turkey",
+    "alpha2code": "TR",
+    "alpha3code": "TUR",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Turkish",
+    "native_name": "T\u00fcrkiye",
+    "population": 77695904,
+    "display_name": "Turkey",
+    "position": 229
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 230,
+  "fields": {
+    "name": "Turkmenistan",
+    "alpha2code": "TM",
+    "alpha3code": "TKM",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Central Asia"
+    ],
+    "capital": null,
+    "demonym": "Turkmen",
+    "native_name": "T\u00fcrkmenistan",
+    "population": 4751120,
+    "display_name": "Turkmenistan",
+    "position": 230
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 231,
+  "fields": {
+    "name": "Turks and Caicos Islands",
+    "alpha2code": "TC",
+    "alpha3code": "TCA",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Caribbean"
+    ],
+    "capital": null,
+    "demonym": "Turks and Caicos Islander",
+    "native_name": "Turks and Caicos Islands",
+    "population": 31458,
+    "display_name": "Turks and Caicos Islands",
+    "position": 231
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 232,
+  "fields": {
+    "name": "Tuvalu",
+    "alpha2code": "TV",
+    "alpha3code": "TUV",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "Tuvaluan",
+    "native_name": "Tuvalu",
+    "population": 10640,
+    "display_name": "Tuvalu",
+    "position": 232
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 233,
+  "fields": {
+    "name": "Uganda",
+    "alpha2code": "UG",
+    "alpha3code": "UGA",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Ugandan",
+    "native_name": "Uganda",
+    "population": 34856813,
+    "display_name": "Uganda",
+    "position": 233
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 234,
+  "fields": {
+    "name": "Ukraine",
+    "alpha2code": "UA",
+    "alpha3code": "UKR",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Eastern Europe"
+    ],
+    "capital": null,
+    "demonym": "Ukrainian",
+    "native_name": "\u0423\u043a\u0440\u0430\u0457\u043d\u0430",
+    "population": 42836922,
+    "display_name": "Ukraine",
+    "position": 234
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 235,
+  "fields": {
+    "name": "United Arab Emirates",
+    "alpha2code": "AE",
+    "alpha3code": "ARE",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Emirati",
+    "native_name": "\u062f\u0648\u0644\u0629 \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+    "population": 9157000,
+    "display_name": "United Arab Emirates",
+    "position": 235
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 236,
+  "fields": {
+    "name": "United Kingdom",
+    "alpha2code": "GB",
+    "alpha3code": "GBR",
+    "continent": [
+      "Europe"
+    ],
+    "region": [
+      "Northern Europe"
+    ],
+    "capital": null,
+    "demonym": "British",
+    "native_name": "United Kingdom",
+    "population": 64800000,
+    "display_name": "United Kingdom",
+    "position": 28
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 237,
+  "fields": {
+    "name": "United States",
+    "alpha2code": "US",
+    "alpha3code": "USA",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "Northern America"
+    ],
+    "capital": null,
+    "demonym": "American",
+    "native_name": "United States",
+    "population": 321645000,
+    "display_name": "United States",
+    "position": 236
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 238,
+  "fields": {
+    "name": "Uruguay",
+    "alpha2code": "UY",
+    "alpha3code": "URY",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Uruguayan",
+    "native_name": "Uruguay",
+    "population": 3415866,
+    "display_name": "Uruguay",
+    "position": 238
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 239,
+  "fields": {
+    "name": "Uzbekistan",
+    "alpha2code": "UZ",
+    "alpha3code": "UZB",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Central Asia"
+    ],
+    "capital": null,
+    "demonym": "Uzbekistani",
+    "native_name": "O\u2018zbekiston",
+    "population": 31022500,
+    "display_name": "Uzbekistan",
+    "position": 239
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 240,
+  "fields": {
+    "name": "Vanuatu",
+    "alpha2code": "VU",
+    "alpha3code": "VUT",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Melanesia"
+    ],
+    "capital": null,
+    "demonym": "Ni-Vanuatu",
+    "native_name": "Vanuatu",
+    "population": 264652,
+    "display_name": "Vanuatu",
+    "position": 240
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 241,
+  "fields": {
+    "name": "Venezuela",
+    "alpha2code": "VE",
+    "alpha3code": "VEN",
+    "continent": [
+      "Americas"
+    ],
+    "region": [
+      "South America"
+    ],
+    "capital": null,
+    "demonym": "Venezuelan",
+    "native_name": "Venezuela",
+    "population": 30620404,
+    "display_name": "Venezuela, Bolivarian Republic of",
+    "position": 241
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 242,
+  "fields": {
+    "name": "Vietnam",
+    "alpha2code": "VN",
+    "alpha3code": "VNM",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "South-Eastern Asia"
+    ],
+    "capital": null,
+    "demonym": "Vietnamese",
+    "native_name": "Vi\u1ec7t Nam",
+    "population": 91812000,
+    "display_name": "Vietnam",
+    "position": 242
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 243,
+  "fields": {
+    "name": "Wallis and Futuna",
+    "alpha2code": "WF",
+    "alpha3code": "WLF",
+    "continent": [
+      "Oceania"
+    ],
+    "region": [
+      "Polynesia"
+    ],
+    "capital": null,
+    "demonym": "Wallis and Futuna Islander",
+    "native_name": "Wallis et Futuna",
+    "population": 13135,
+    "display_name": "Wallis and Futuna",
+    "position": 245
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 244,
+  "fields": {
+    "name": "Western Sahara",
+    "alpha2code": "EH",
+    "alpha3code": "ESH",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Northern Africa"
+    ],
+    "capital": null,
+    "demonym": "Sahrawi",
+    "native_name": "\u0627\u0644\u0635\u062d\u0631\u0627\u0621 \u0627\u0644\u063a\u0631\u0628\u064a\u0629",
+    "population": 510713,
+    "display_name": "Western Sahara",
+    "position": 246
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 245,
+  "fields": {
+    "name": "Yemen",
+    "alpha2code": "YE",
+    "alpha3code": "YEM",
+    "continent": [
+      "Asia"
+    ],
+    "region": [
+      "Western Asia"
+    ],
+    "capital": null,
+    "demonym": "Yemeni",
+    "native_name": "\u0627\u0644\u064a\u064e\u0645\u064e\u0646",
+    "population": 25956000,
+    "display_name": "Yemen",
+    "position": 247
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 246,
+  "fields": {
+    "name": "Zambia",
+    "alpha2code": "ZM",
+    "alpha3code": "ZMB",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Zambian",
+    "native_name": "Zambia",
+    "population": 15473905,
+    "display_name": "Zambia",
+    "position": 248
+  }
+},
+{
+  "model": "fact_book.country",
+  "pk": 247,
+  "fields": {
+    "name": "Zimbabwe",
+    "alpha2code": "ZW",
+    "alpha3code": "ZWE",
+    "continent": [
+      "Africa"
+    ],
+    "region": [
+      "Eastern Africa"
+    ],
+    "capital": null,
+    "demonym": "Zimbabwean",
+    "native_name": "Zimbabwe",
+    "population": 13061239,
+    "display_name": "Zimbabwe",
+    "position": 249
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 162,
+  "fields": {
+    "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe Dobra",
+    "code": "STD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 163,
+  "fields": {
+    "name": "Nepal Rupee",
+    "code": "NPR",
+    "symbol": "\u20a8"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 164,
+  "fields": {
+    "name": "Zambia Kwacha",
+    "code": "ZMW",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 165,
+  "fields": {
+    "name": "Indonesia Rupiah",
+    "code": "IDR",
+    "symbol": "Rp"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 166,
+  "fields": {
+    "name": "Guernsey Pound",
+    "code": "GGP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 167,
+  "fields": {
+    "name": "Ukraine Hryvnia",
+    "code": "UAH",
+    "symbol": "\u20b4"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 168,
+  "fields": {
+    "name": "Malawi Kwacha",
+    "code": "MWK",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 169,
+  "fields": {
+    "name": "Tonga Pa'anga",
+    "code": "TOP",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 170,
+  "fields": {
+    "name": "Netherlands Antilles Guilder",
+    "code": "ANG",
+    "symbol": "\u0192"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 171,
+  "fields": {
+    "name": "East Caribbean Dollar",
+    "code": "XCD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 172,
+  "fields": {
+    "name": "Chile Peso",
+    "code": "CLP",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 173,
+  "fields": {
+    "name": "Angola Kwanza",
+    "code": "AOA",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 174,
+  "fields": {
+    "name": "Lebanon Pound",
+    "code": "LBP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 175,
+  "fields": {
+    "name": "Saint Helena Pound",
+    "code": "SHP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 176,
+  "fields": {
+    "name": "Kazakhstan Tenge",
+    "code": "KZT",
+    "symbol": "\u043b\u0432"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 177,
+  "fields": {
+    "name": "Jersey Pound",
+    "code": "JEP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 178,
+  "fields": {
+    "name": "Croatia Kuna",
+    "code": "HRK",
+    "symbol": "kn"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 179,
+  "fields": {
+    "name": "Czech Republic Koruna",
+    "code": "CZK",
+    "symbol": "K\u010d"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 180,
+  "fields": {
+    "name": "Dominican Republic Peso",
+    "code": "DOP",
+    "symbol": "RD$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 181,
+  "fields": {
+    "name": "Honduras Lempira",
+    "code": "HNL",
+    "symbol": "L"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 182,
+  "fields": {
+    "name": "Afghanistan Afghani",
+    "code": "AFN",
+    "symbol": "\u060b"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 183,
+  "fields": {
+    "name": "Central African CFA franc",
+    "code": "XAF",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 184,
+  "fields": {
+    "name": "Comoros Franc",
+    "code": "KMF",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 185,
+  "fields": {
+    "name": "Macau Pataca",
+    "code": "MOP",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 186,
+  "fields": {
+    "name": "Lesotho Loti",
+    "code": "LSL",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 187,
+  "fields": {
+    "name": "Russia Ruble",
+    "code": "RUB",
+    "symbol": "\u0440\u0443\u0431"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 188,
+  "fields": {
+    "name": "Azerbaijan New Manat",
+    "code": "AZN",
+    "symbol": "\u043c\u0430\u043d"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 189,
+  "fields": {
+    "name": "Macedonia Denar",
+    "code": "MKD",
+    "symbol": "\u0434\u0435\u043d"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 190,
+  "fields": {
+    "name": "Uganda Shilling",
+    "code": "UGX",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 191,
+  "fields": {
+    "name": "Tajikistan Somoni",
+    "code": "TJS",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 192,
+  "fields": {
+    "name": "Japan Yen",
+    "code": "JPY",
+    "symbol": "\u00a5"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 193,
+  "fields": {
+    "name": "Solomon Islands Dollar",
+    "code": "SBD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 194,
+  "fields": {
+    "name": "Philippines Peso",
+    "code": "PHP",
+    "symbol": "\u20b1"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 195,
+  "fields": {
+    "name": "Armenia Dram",
+    "code": "AMD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 196,
+  "fields": {
+    "name": "Guatemala Quetzal",
+    "code": "GTQ",
+    "symbol": "Q"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 197,
+  "fields": {
+    "name": "Bangladesh Taka",
+    "code": "BDT",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 198,
+  "fields": {
+    "name": "Namibia Dollar",
+    "code": "NAD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 199,
+  "fields": {
+    "name": "Belarus Ruble",
+    "code": "BYR",
+    "symbol": "p."
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 200,
+  "fields": {
+    "name": "Iceland Krona",
+    "code": "ISK",
+    "symbol": "kr"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 201,
+  "fields": {
+    "name": "Djibouti Franc",
+    "code": "DJF",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 202,
+  "fields": {
+    "name": "Mongolia Tughrik",
+    "code": "MNT",
+    "symbol": "\u20ae"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 203,
+  "fields": {
+    "name": "Bulgaria Lev",
+    "code": "BGN",
+    "symbol": "\u043b\u0432"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 204,
+  "fields": {
+    "name": "Guyana Dollar",
+    "code": "GYD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 205,
+  "fields": {
+    "name": "Venezuela Bolivar",
+    "code": "VEF",
+    "symbol": "Bs"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 206,
+  "fields": {
+    "name": "Sudan Pound",
+    "code": "SDG",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 207,
+  "fields": {
+    "name": "Peru Nuevo Sol",
+    "code": "PEN",
+    "symbol": "S/."
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 208,
+  "fields": {
+    "name": "Somalia Shilling",
+    "code": "SOS",
+    "symbol": "S"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 209,
+  "fields": {
+    "name": "Zimbabwe Dollar",
+    "code": "ZWD",
+    "symbol": "Z$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 210,
+  "fields": {
+    "name": "Albania Lek",
+    "code": "ALL",
+    "symbol": "Lek"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 211,
+  "fields": {
+    "name": "Jordan Dinar",
+    "code": "JOD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 212,
+  "fields": {
+    "name": "Papua New Guinea Kina",
+    "code": "PGK",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 213,
+  "fields": {
+    "name": "Barbados Dollar",
+    "code": "BBD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 214,
+  "fields": {
+    "name": "Botswana Pula",
+    "code": "BWP",
+    "symbol": "P"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 215,
+  "fields": {
+    "name": "South Africa Rand",
+    "code": "ZAR",
+    "symbol": "R"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 216,
+  "fields": {
+    "name": "Ethiopia Birr",
+    "code": "ETB",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 217,
+  "fields": {
+    "name": "Pakistan Rupee",
+    "code": "PKR",
+    "symbol": "\u20a8"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 218,
+  "fields": {
+    "name": "Sweden Krona",
+    "code": "SEK",
+    "symbol": "kr"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 219,
+  "fields": {
+    "name": "Cuba Convertible Peso",
+    "code": "CUC",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 220,
+  "fields": {
+    "name": "Cape Verde Escudo",
+    "code": "CVE",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 221,
+  "fields": {
+    "name": "Egypt Pound",
+    "code": "EGP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 222,
+  "fields": {
+    "name": "Paraguay Guarani",
+    "code": "PYG",
+    "symbol": "Gs"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 223,
+  "fields": {
+    "name": "Congo/Kinshasa Franc",
+    "code": "CDF",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 224,
+  "fields": {
+    "name": "Viet Nam Dong",
+    "code": "VND",
+    "symbol": "\u20ab"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 225,
+  "fields": {
+    "name": "United Arab Emirates Dirham",
+    "code": "AED",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 226,
+  "fields": {
+    "name": "Hungary Forint",
+    "code": "HUF",
+    "symbol": "Ft"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 227,
+  "fields": {
+    "name": "Syria Pound",
+    "code": "SYP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 228,
+  "fields": {
+    "name": "Seychelles Rupee",
+    "code": "SCR",
+    "symbol": "\u20a8"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 229,
+  "fields": {
+    "name": "Mauritania Ouguiya",
+    "code": "MRO",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 230,
+  "fields": {
+    "name": "Myanmar (Burma) Kyat",
+    "code": "MMK",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 231,
+  "fields": {
+    "name": "Morocco Dirham",
+    "code": "MAD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 232,
+  "fields": {
+    "name": "Australia Dollar",
+    "code": "AUD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 233,
+  "fields": {
+    "name": "Eritrea Nakfa",
+    "code": "ERN",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 234,
+  "fields": {
+    "name": "Mauritius Rupee",
+    "code": "MUR",
+    "symbol": "\u20a8"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 235,
+  "fields": {
+    "name": "Belize Dollar",
+    "code": "BZD",
+    "symbol": "BZ$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 236,
+  "fields": {
+    "name": "United States Dollar",
+    "code": "USD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 237,
+  "fields": {
+    "name": "Turkmenistan Manat",
+    "code": "TMT",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 238,
+  "fields": {
+    "name": "Bhutan Ngultrum",
+    "code": "BTN",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 239,
+  "fields": {
+    "name": "Burundi Franc",
+    "code": "BIF",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 240,
+  "fields": {
+    "name": "Samoa Tala",
+    "code": "WST",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 241,
+  "fields": {
+    "name": "Oman Rial",
+    "code": "OMR",
+    "symbol": "\ufdfc"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 242,
+  "fields": {
+    "name": "Saudi Arabia Riyal",
+    "code": "SAR",
+    "symbol": "\ufdfc"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 243,
+  "fields": {
+    "name": "Kenya Shilling",
+    "code": "KES",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 244,
+  "fields": {
+    "name": "Canada Dollar",
+    "code": "CAD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 245,
+  "fields": {
+    "name": "Tuvalu Dollar",
+    "code": "TVD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 246,
+  "fields": {
+    "name": "Brunei Darussalam Dollar",
+    "code": "BND",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 247,
+  "fields": {
+    "name": "New Zealand Dollar",
+    "code": "NZD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 248,
+  "fields": {
+    "name": "Libya Dinar",
+    "code": "LYD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 249,
+  "fields": {
+    "name": "Guinea Franc",
+    "code": "GNF",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 250,
+  "fields": {
+    "name": "Malaysia Ringgit",
+    "code": "MYR",
+    "symbol": "RM"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 251,
+  "fields": {
+    "name": "Korea (North) Won",
+    "code": "KPW",
+    "symbol": "\u20a9"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 252,
+  "fields": {
+    "name": "Uruguay Peso",
+    "code": "UYU",
+    "symbol": "$U"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 253,
+  "fields": {
+    "name": "Gibraltar Pound",
+    "code": "GIP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 254,
+  "fields": {
+    "name": "Iraq Dinar",
+    "code": "IQD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 255,
+  "fields": {
+    "name": "Norway Krone",
+    "code": "NOK",
+    "symbol": "kr"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 256,
+  "fields": {
+    "name": "Gambia Dalasi",
+    "code": "GMD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 257,
+  "fields": {
+    "name": "Poland Zloty",
+    "code": "PLN",
+    "symbol": "z\u0142"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 258,
+  "fields": {
+    "name": "Bermuda Dollar",
+    "code": "BMD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 259,
+  "fields": {
+    "name": "Sri Lanka Rupee",
+    "code": "LKR",
+    "symbol": "\u20a8"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 260,
+  "fields": {
+    "name": "Korea (South) Won",
+    "code": "KRW",
+    "symbol": "\u20a9"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 261,
+  "fields": {
+    "name": "Tanzania Shilling",
+    "code": "TZS",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 262,
+  "fields": {
+    "name": "Uzbekistan Som",
+    "code": "UZS",
+    "symbol": "\u043b\u0432"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 263,
+  "fields": {
+    "name": "Moldova Leu",
+    "code": "MDL",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 264,
+  "fields": {
+    "name": "Georgia Lari",
+    "code": "GEL",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 265,
+  "fields": {
+    "name": "Thailand Baht",
+    "code": "THB",
+    "symbol": "\u0e3f"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 266,
+  "fields": {
+    "name": "Sierra Leone Leone",
+    "code": "SLL",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 267,
+  "fields": {
+    "name": "United Kingdom Pound",
+    "code": "GBP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 268,
+  "fields": {
+    "name": "Trinidad and Tobago Dollar",
+    "code": "TTD",
+    "symbol": "TT$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 269,
+  "fields": {
+    "name": "Hong Kong Dollar",
+    "code": "HKD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 270,
+  "fields": {
+    "name": "Nicaragua Cordoba",
+    "code": "NIO",
+    "symbol": "C$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 271,
+  "fields": {
+    "name": "Isle of Man Pound",
+    "code": "IMP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 272,
+  "fields": {
+    "name": "Bahrain Dinar",
+    "code": "BHD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 273,
+  "fields": {
+    "name": "Serbia Dinar",
+    "code": "RSD",
+    "symbol": "\u0414\u0438\u043d."
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 274,
+  "fields": {
+    "name": "Costa Rica Colon",
+    "code": "CRC",
+    "symbol": "\u20a1"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 275,
+  "fields": {
+    "name": "Nigeria Naira",
+    "code": "NGN",
+    "symbol": "\u20a6"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 276,
+  "fields": {
+    "name": "Kuwait Dinar",
+    "code": "KWD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 277,
+  "fields": {
+    "name": "Swaziland Lilangeni",
+    "code": "SZL",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 278,
+  "fields": {
+    "name": "Qatar Riyal",
+    "code": "QAR",
+    "symbol": "\ufdfc"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 279,
+  "fields": {
+    "name": "Mozambique Metical",
+    "code": "MZN",
+    "symbol": "MT"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 280,
+  "fields": {
+    "name": "Vanuatu Vatu",
+    "code": "VUV",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 281,
+  "fields": {
+    "name": "Bolivia Boliviano",
+    "code": "BOB",
+    "symbol": "$b"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 282,
+  "fields": {
+    "name": "Denmark Krone",
+    "code": "DKK",
+    "symbol": "kr"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 283,
+  "fields": {
+    "name": "Euro Member Countries",
+    "code": "EUR",
+    "symbol": "\u20ac"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 284,
+  "fields": {
+    "name": "Mexico Peso",
+    "code": "MXN",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 285,
+  "fields": {
+    "name": "Haiti Gourde",
+    "code": "HTG",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 286,
+  "fields": {
+    "name": "Iran Rial",
+    "code": "IRR",
+    "symbol": "\ufdfc"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 287,
+  "fields": {
+    "name": "Suriname Dollar",
+    "code": "SRD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 288,
+  "fields": {
+    "name": "Singapore Dollar",
+    "code": "SGD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 289,
+  "fields": {
+    "name": "Algeria Dinar",
+    "code": "DZD",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 290,
+  "fields": {
+    "name": "El Salvador Colon",
+    "code": "SVC",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 291,
+  "fields": {
+    "name": "Panama Balboa",
+    "code": "PAB",
+    "symbol": "B/."
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 292,
+  "fields": {
+    "name": "Kyrgyzstan Som",
+    "code": "KGS",
+    "symbol": "\u043b\u0432"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 293,
+  "fields": {
+    "name": "Israel Shekel",
+    "code": "ILS",
+    "symbol": "\u20aa"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 294,
+  "fields": {
+    "name": "Bahamas Dollar",
+    "code": "BSD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 295,
+  "fields": {
+    "name": "Laos Kip",
+    "code": "LAK",
+    "symbol": "\u20ad"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 296,
+  "fields": {
+    "name": "Cambodia Riel",
+    "code": "KHR",
+    "symbol": "\u17db"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 297,
+  "fields": {
+    "name": "Fiji Dollar",
+    "code": "FJD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 298,
+  "fields": {
+    "name": "Madagascar Ariary",
+    "code": "MGA",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 299,
+  "fields": {
+    "name": "Rwanda Franc",
+    "code": "RWF",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 300,
+  "fields": {
+    "name": "Cayman Islands Dollar",
+    "code": "KYD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 301,
+  "fields": {
+    "name": "Seborga Luigino",
+    "code": "SPL",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 302,
+  "fields": {
+    "name": "Taiwan New Dollar",
+    "code": "TWD",
+    "symbol": "NT$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 303,
+  "fields": {
+    "name": "CFP Franc",
+    "code": "XPF",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 304,
+  "fields": {
+    "name": "India Rupee",
+    "code": "INR",
+    "symbol": "\u20b9"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 305,
+  "fields": {
+    "name": "Brazil Real",
+    "code": "BRL",
+    "symbol": "R$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 306,
+  "fields": {
+    "name": "China Yuan Renminbi",
+    "code": "CNY",
+    "symbol": "\u00a5"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 307,
+  "fields": {
+    "name": "Aruba Guilder",
+    "code": "AWG",
+    "symbol": "\u0192"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 308,
+  "fields": {
+    "name": "Jamaica Dollar",
+    "code": "JMD",
+    "symbol": "J$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 309,
+  "fields": {
+    "name": "Falkland Islands (Malvinas) Pound",
+    "code": "FKP",
+    "symbol": "\u00a3"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 310,
+  "fields": {
+    "name": "Colombia Peso",
+    "code": "COP",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 311,
+  "fields": {
+    "name": "Bosnia and Herzegovina Convertible Marka",
+    "code": "BAM",
+    "symbol": "KM"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 312,
+  "fields": {
+    "name": "Yemen Rial",
+    "code": "YER",
+    "symbol": "\ufdfc"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 313,
+  "fields": {
+    "name": "Liberia Dollar",
+    "code": "LRD",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 314,
+  "fields": {
+    "name": "Turkey Lira",
+    "code": "TRY",
+    "symbol": "\u20ba"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 315,
+  "fields": {
+    "name": "Cuba Peso",
+    "code": "CUP",
+    "symbol": "\u20b1"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 316,
+  "fields": {
+    "name": "West African CFA Franc",
+    "code": "XOF",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 317,
+  "fields": {
+    "name": "Tunisia Dinar",
+    "code": "TND",
+    "symbol": ""
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 318,
+  "fields": {
+    "name": "Argentina Peso",
+    "code": "ARS",
+    "symbol": "$"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 319,
+  "fields": {
+    "name": "Switzerland Franc",
+    "code": "CHF",
+    "symbol": "CHF"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 320,
+  "fields": {
+    "name": "Ghana Cedi",
+    "code": "GHS",
+    "symbol": "\u00a2"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 321,
+  "fields": {
+    "name": "Romania New Leu",
+    "code": "RON",
+    "symbol": "lei"
+  }
+},
+{
+  "model": "fact_book.currency",
+  "pk": 322,
+  "fields": {
+    "name": "Maldives (Maldive Islands) Rufiyaa",
+    "code": "MVR",
+    "symbol": ""
+  }
+}
+]
