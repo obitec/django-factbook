@@ -1,6 +1,6 @@
 from django.db import models
+from django.utils.translation import ugettext_lazy as _
 from logging import getLogger
-
 
 # LOGGING
 # ---------------------------------------------------------------------------------------------------------------------#
@@ -15,10 +15,10 @@ class NaturalManager(models.Manager):
 
 
 class NaturalModel(models.Model):
-    name = models.CharField(max_length=150, unique=True)
+    name = models.CharField(max_length=150, unique=True, verbose_name=_('Name'))
 
     def natural_key(self):
-        return (self.name, )
+        return (self.name,)
 
     objects = NaturalManager()
 
@@ -32,14 +32,27 @@ class NaturalModel(models.Model):
 # MODELS
 # ---------------------------------------------------------------------------------------------------------------------#
 class Continent(NaturalModel):
-    pass
+    """Continent model
+      Just and an array field for alternative names
+    """
+    class Meta:
+        verbose_name = _('Continent')
+        verbose_name_plural = _('Continents')
 
 
 class Region(NaturalModel):
-    pass
+    """Region model
+      Just and an array field for alternative names
+    """
+    class Meta:
+        verbose_name = _('Region')
+        verbose_name_plural = _('Regions')
 
 
 class Country(NaturalModel):
+    """Country model
+      Just and an array field for alternative names
+    """
     alpha2code = models.CharField(max_length=2, unique=True)
     alpha3code = models.CharField(max_length=3, unique=True, null=True, blank=True)
     continent = models.ForeignKey(Continent, null=True, blank=True, related_name='countries')
@@ -56,12 +69,13 @@ class Country(NaturalModel):
 
     class Meta:
         ordering = ['display_name', ]
-        verbose_name_plural = 'Countries'
+        verbose_name = _('Country')
+        verbose_name_plural = _('Countries')
 
 
 class Currency(NaturalModel):
-    code = models.CharField(max_length=3, unique=True)
-    symbol = models.CharField(max_length=10, null=True, blank=True)
+    code = models.CharField(max_length=3, unique=True, verbose_name=_('ISO code'))
+    symbol = models.CharField(max_length=10, null=True, blank=True, verbose_name=_('Currency symbol'))
 
     def __str__(self):
         if self.symbol:
@@ -70,9 +84,12 @@ class Currency(NaturalModel):
             return "%s - %s" % (self.code, self.name)
 
     class Meta:
-        verbose_name_plural = 'Currencies'
+        verbose_name = _('Currency')
+        verbose_name_plural = _('Currencies')
         ordering = ['name', ]
 
 
 class UnitMeasure(NaturalModel):
-    pass
+    class Meta:
+        verbose_name = _('Measure')
+        verbose_name_plural = _('Measures')
