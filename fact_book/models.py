@@ -33,7 +33,8 @@ class NaturalModel(models.Model):
 # ---------------------------------------------------------------------------------------------------------------------#
 class Continent(NaturalModel):
     """Continent model
-      Just and an array field for alternative names
+
+    Just and an array field for alternative names
     """
     class Meta:
         verbose_name = _('Continent')
@@ -42,7 +43,8 @@ class Continent(NaturalModel):
 
 class Region(NaturalModel):
     """Region model
-      Just and an array field for alternative names
+
+    Just and an array field for alternative names
     """
     class Meta:
         verbose_name = _('Region')
@@ -51,7 +53,8 @@ class Region(NaturalModel):
 
 class Country(NaturalModel):
     """Country model
-      Just and an array field for alternative names
+
+    Just and an array field for alternative names
     """
     alpha2code = models.CharField(max_length=2, unique=True)
     alpha3code = models.CharField(max_length=3, unique=True, null=True, blank=True)
