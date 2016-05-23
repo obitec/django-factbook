@@ -1,8 +1,7 @@
-import os
-
 from invoke import run, task, env
 from invoke.util import cd, contextmanager
 import sys
+import os
 
 env.directory = './'
 env.activate = 'source env/bin/activate && '
@@ -73,4 +72,4 @@ def build(docs=False):
 
 @task
 def runserver():
-    run("python test/manage.py runserver")
+    run("python tests/manage.py runserver",)
