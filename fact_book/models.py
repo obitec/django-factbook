@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
+from django.contrib.postgres.fields import JSONField
 from logging import getLogger
 
 # LOGGING
@@ -66,7 +67,7 @@ class Country(NaturalModel):
     population = models.IntegerField(null=True, blank=True)
     display_name = models.CharField(max_length=150, null=True, blank=True)
     position = models.IntegerField(null=True, blank=True)
-
+    data = JSONField(null=True)
     def __str__(self):
         return self.display_name if self.display_name else self.name
 

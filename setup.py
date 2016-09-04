@@ -9,11 +9,11 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-factbook',
-    version='0.1',
+    version='0.2.0',
     packages=find_packages(),
     include_package_data=True,
     license='BSD License',  # example license
-    description='A simple Django base app.',
+    description='A simple Django app to look up facts about the world.',
     long_description=README,
     url='http://www.obitec.co.za/',
     author='JR Minnaar',
