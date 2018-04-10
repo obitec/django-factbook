@@ -1,6 +1,6 @@
+from django.contrib.postgres.fields import JSONField
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
-from django.contrib.postgres.fields import JSONField
 from logging import getLogger
 
 # LOGGING
@@ -37,6 +37,7 @@ class Continent(NaturalModel):
 
     Just and an array field for alternative names
     """
+
     class Meta:
         verbose_name = _('Continent')
         verbose_name_plural = _('Continents')
@@ -47,6 +48,7 @@ class Region(NaturalModel):
 
     Just and an array field for alternative names
     """
+
     class Meta:
         verbose_name = _('Region')
         verbose_name_plural = _('Regions')
@@ -59,8 +61,8 @@ class Country(NaturalModel):
     """
     alpha2code = models.CharField(max_length=2, unique=True)
     alpha3code = models.CharField(max_length=3, unique=True, null=True, blank=True)
-    continent = models.ForeignKey(Continent, null=True, blank=True, related_name='countries')
-    region = models.ForeignKey(Region, null=True, blank=True, related_name='regions')
+    continent = models.ForeignKey(Continent, null=True, blank=True, related_name='countries', on_delete=models.CASCADE)
+    region = models.ForeignKey(Region, null=True, blank=True, related_name='regions', on_delete=models.CASCADE)
     capital = models.CharField(max_length=150, null=True, blank=True)
     demonym = models.CharField(max_length=150, null=True, blank=True)
     native_name = models.CharField(max_length=150, null=True, blank=True)
@@ -68,6 +70,7 @@ class Country(NaturalModel):
     display_name = models.CharField(max_length=150, null=True, blank=True)
     position = models.IntegerField(null=True, blank=True)
     data = JSONField(null=True)
+
     def __str__(self):
         return self.display_name if self.display_name else self.name
 
