@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-factbook',
-    version='0.3.1',
+    version='0.4.0',
     packages=find_packages(),
     include_package_data=True,
     license='BSD License',  # example license
@@ -17,19 +17,16 @@ setup(
     long_description=README,
     url='http://www.obitec.co.za/',
     author='JR Minnaar',
-    author_email='jr.minnaar@gmail.com',
+    author_email='jr.minnaar+pypi@gmail.com',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 1.9',  # replace "X.Y" as appropriate
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',  # example license
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         # Replace these appropriately if you are stuck on Python 2.
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
